@@ -1,0 +1,1040 @@
+{"prompt":"ForgeScript: $advancedTextSplit <text> <split;index>","completion":"$advancedTextSplit[text;split;index]"}
+{"prompt":"ForgeScript: $arrayAdvancedSort <variable> <var1> <var2> <code> <other variable>","completion":"$arrayAdvancedSort[variable;var1;var2;code;other variable]"}
+{"prompt":"ForgeScript: $arrayAt <variable> <index>","completion":"$arrayAt[variable;index]"}
+{"prompt":"ForgeScript: $arrayClear <variable>","completion":"$arrayClear[variable]"}
+{"prompt":"ForgeScript: $arrayConcat <variable> <variables>","completion":"$arrayConcat[variable;variables]"}
+{"prompt":"ForgeScript: $arrayCreate <variable> <length>","completion":"$arrayCreate[variable;length]"}
+{"prompt":"ForgeScript: $arrayEvery <name> <variable> <code>","completion":"$arrayEvery[name;variable;code]"}
+{"prompt":"ForgeScript: $arrayFill <variable> <value>","completion":"$arrayFill[variable;value]"}
+{"prompt":"ForgeScript: $arrayFindIndex <name> <variable> <code>","completion":"$arrayFindIndex[name;variable;code]"}
+{"prompt":"ForgeScript: $arrayFindLastIndex <name> <variable> <code>","completion":"$arrayFindLastIndex[name;variable;code]"}
+{"prompt":"ForgeScript: $arrayForEach <name> <variable> <code>","completion":"$arrayForEach[name;variable;code]"}
+{"prompt":"ForgeScript: $arrayIncludes <variable> <value>","completion":"$arrayIncludes[variable;value]"}
+{"prompt":"ForgeScript: $arrayIndexOf <name> <value>","completion":"$arrayIndexOf[name;value]"}
+{"prompt":"ForgeScript: $arrayJoin <variable> <separator>","completion":"$arrayJoin[variable;separator]"}
+{"prompt":"ForgeScript: $arrayLastIndexOf <name> <value>","completion":"$arrayLastIndexOf[name;value]"}
+{"prompt":"ForgeScript: $arrayLength <name>","completion":"$arrayLength[name]"}
+{"prompt":"ForgeScript: $arrayLoad <variable> <separator> <values>","completion":"$arrayLoad[variable;separator;values]"}
+{"prompt":"ForgeScript: $arrayMap <name> <variable> <code> <other variable>","completion":"$arrayMap[name;variable;code;other variable]"}
+{"prompt":"ForgeScript: $arrayPop <name>","completion":"$arrayPop[name]"}
+{"prompt":"ForgeScript: $arrayPush <name> <values>","completion":"$arrayPush[name;values]"}
+{"prompt":"ForgeScript: $arrayPushJSON <name> <values>","completion":"$arrayPushJSON[name;values]"}
+{"prompt":"ForgeScript: $arrayRandomIndex <variable>","completion":"$arrayRandomIndex[variable]"}
+{"prompt":"ForgeScript: $arrayRandomValue <variable>","completion":"$arrayRandomValue[variable]"}
+{"prompt":"ForgeScript: $arrayReduce <name> <variable> <other variable> <code> <default value>","completion":"$arrayReduce[name;variable;other variable;code;default value]"}
+{"prompt":"ForgeScript: $arrayReverse <variable> <other variable>","completion":"$arrayReverse[variable;other variable]"}
+{"prompt":"ForgeScript: $arrayShift <name>","completion":"$arrayShift[name]"}
+{"prompt":"ForgeScript: $arrayShuffle <variable>","completion":"$arrayShuffle[variable]"}
+{"prompt":"ForgeScript: $arraySlice <variable> <other variable> <start> <end>","completion":"$arraySlice[variable;other variable;start;end]"}
+{"prompt":"ForgeScript: $arraySome <name> <variable> <code>","completion":"$arraySome[name;variable;code]"}
+{"prompt":"ForgeScript: $arraySort <variable> <other variable> <sort type>","completion":"$arraySort[variable;other variable;sort type]"}
+{"prompt":"ForgeScript: $arraySplice <variable> <index> <delete count> <elements>","completion":"$arraySplice[variable;index;delete count;elements]"}
+{"prompt":"ForgeScript: $arrayUnload <variable>","completion":"$arrayUnload[variable]"}
+{"prompt":"ForgeScript: $arrayUnshift <name> <values>","completion":"$arrayUnshift[name;values]"}
+{"prompt":"ForgeScript: $arrayUnshiftJSON <name> <values>","completion":"$arrayUnshiftJSON[name;values]"}
+{"prompt":"ForgeScript: $getSplitTextLength undefined","completion":"$getSplitTextLength[undefined]"}
+{"prompt":"ForgeScript: $segmentTextSplit <text>","completion":"$segmentTextSplit[text]"}
+{"prompt":"ForgeScript: $splitText <index>","completion":"$splitText[index]"}
+{"prompt":"ForgeScript: $splitTextJoin <separator>","completion":"$splitTextJoin[separator]"}
+{"prompt":"ForgeScript: $textSplit <text> <separator>","completion":"$textSplit[text;separator]"}
+{"prompt":"ForgeScript: $fetchAuditLog <guild ID> <type> <property> <index> <separator>","completion":"$fetchAuditLog[guild ID;type;property;index;separator]"}
+{"prompt":"ForgeScript: $fetchAuditLogCount <guild ID> <type> <user>","completion":"$fetchAuditLogCount[guild ID;type;user]"}
+{"prompt":"ForgeScript: $fetchUserAuditLog <guild ID> <user> <type> <property> <index> <separator>","completion":"$fetchUserAuditLog[guild ID;user;type;property;index;separator]"}
+{"prompt":"ForgeScript: $automodActionType undefined","completion":"$automodActionType[undefined]"}
+{"prompt":"ForgeScript: $automodAlertSystemMessageID undefined","completion":"$automodAlertSystemMessageID[undefined]"}
+{"prompt":"ForgeScript: $automodChannelID undefined","completion":"$automodChannelID[undefined]"}
+{"prompt":"ForgeScript: $automodContent undefined","completion":"$automodContent[undefined]"}
+{"prompt":"ForgeScript: $automodCustomMessage undefined","completion":"$automodCustomMessage[undefined]"}
+{"prompt":"ForgeScript: $automodDuration undefined","completion":"$automodDuration[undefined]"}
+{"prompt":"ForgeScript: $automodMatchedContent undefined","completion":"$automodMatchedContent[undefined]"}
+{"prompt":"ForgeScript: $automodMatchedKeyword undefined","completion":"$automodMatchedKeyword[undefined]"}
+{"prompt":"ForgeScript: $automodRuleID undefined","completion":"$automodRuleID[undefined]"}
+{"prompt":"ForgeScript: $automodRuleTriggerType undefined","completion":"$automodRuleTriggerType[undefined]"}
+{"prompt":"ForgeScript: $createAutomodRule <guild ID> <name> <trigger> <event> <enabled> <reason>","completion":"$createAutomodRule[guild ID;name;trigger;event;enabled;reason]"}
+{"prompt":"ForgeScript: $deleteAutomodRule <guild ID> <rule ID> <reason>","completion":"$deleteAutomodRule[guild ID;rule ID;reason]"}
+{"prompt":"ForgeScript: $editAutomodRule <guild ID> <rule ID> <name> <event> <enabled> <reason>","completion":"$editAutomodRule[guild ID;rule ID;name;event;enabled;reason]"}
+{"prompt":"ForgeScript: $getAutomodRule <guild ID> <rule ID> <property> <separator>","completion":"$getAutomodRule[guild ID;rule ID;property;separator]"}
+{"prompt":"ForgeScript: $setAutomodAction <type> <channel ID> <duration> <message>","completion":"$setAutomodAction[type;channel ID;duration;message]"}
+{"prompt":"ForgeScript: $setAutomodAllowList <words>","completion":"$setAutomodAllowList[words]"}
+{"prompt":"ForgeScript: $setAutomodExemptChannels <channels>","completion":"$setAutomodExemptChannels[channels]"}
+{"prompt":"ForgeScript: $setAutomodExemptRoles <roles>","completion":"$setAutomodExemptRoles[roles]"}
+{"prompt":"ForgeScript: $setAutomodKeywordFilter <words>","completion":"$setAutomodKeywordFilter[words]"}
+{"prompt":"ForgeScript: $setAutomodMentionRaidProtection <enabled>","completion":"$setAutomodMentionRaidProtection[enabled]"}
+{"prompt":"ForgeScript: $setAutomodMentionTotalLimit <limit>","completion":"$setAutomodMentionTotalLimit[limit]"}
+{"prompt":"ForgeScript: $setAutomodPresets <presets>","completion":"$setAutomodPresets[presets]"}
+{"prompt":"ForgeScript: $setAutomodRegexFilter <regexes>","completion":"$setAutomodRegexFilter[regexes]"}
+{"prompt":"ForgeScript: $applicationCommandCount <guild ID> <count sub>","completion":"$applicationCommandCount[guild ID;count sub]"}
+{"prompt":"ForgeScript: $applicationCommands <guild ID>","completion":"$applicationCommands[guild ID]"}
+{"prompt":"ForgeScript: $botCount undefined","completion":"$botCount[undefined]"}
+{"prompt":"ForgeScript: $botCustomInvite undefined","completion":"$botCustomInvite[undefined]"}
+{"prompt":"ForgeScript: $botDescription undefined","completion":"$botDescription[undefined]"}
+{"prompt":"ForgeScript: $botDestroy undefined","completion":"$botDestroy[undefined]"}
+{"prompt":"ForgeScript: $botID undefined","completion":"$botID[undefined]"}
+{"prompt":"ForgeScript: $botInvite <perms>","completion":"$botInvite[perms]"}
+{"prompt":"ForgeScript: $botMutualGuilds <user ID> <separator>","completion":"$botMutualGuilds[user ID;separator]"}
+{"prompt":"ForgeScript: $botOwnerID <return members> <separator>","completion":"$botOwnerID[return members;separator]"}
+{"prompt":"ForgeScript: $botTags <separator>","completion":"$botTags[separator]"}
+{"prompt":"ForgeScript: $botTeamCreatedAt undefined","completion":"$botTeamCreatedAt[undefined]"}
+{"prompt":"ForgeScript: $botTeamID undefined","completion":"$botTeamID[undefined]"}
+{"prompt":"ForgeScript: $botTeamIcon <size> <extension>","completion":"$botTeamIcon[size;extension]"}
+{"prompt":"ForgeScript: $botTeamMembers <property> <separator>","completion":"$botTeamMembers[property;separator]"}
+{"prompt":"ForgeScript: $botTeamName undefined","completion":"$botTeamName[undefined]"}
+{"prompt":"ForgeScript: $botToken undefined","completion":"$botToken[undefined]"}
+{"prompt":"ForgeScript: $botUserAuthorizationCount undefined","completion":"$botUserAuthorizationCount[undefined]"}
+{"prompt":"ForgeScript: $botUserInstallCount undefined","completion":"$botUserInstallCount[undefined]"}
+{"prompt":"ForgeScript: $botWebhookEvents <separator>","completion":"$botWebhookEvents[separator]"}
+{"prompt":"ForgeScript: $botWebhookStatus undefined","completion":"$botWebhookStatus[undefined]"}
+{"prompt":"ForgeScript: $botWebhookURL undefined","completion":"$botWebhookURL[undefined]"}
+{"prompt":"ForgeScript: $deleteGlobalApplicationCommands undefined","completion":"$deleteGlobalApplicationCommands[undefined]"}
+{"prompt":"ForgeScript: $extensionVersion <name>","completion":"$extensionVersion[name]"}
+{"prompt":"ForgeScript: $hasExtension <name>","completion":"$hasExtension[name]"}
+{"prompt":"ForgeScript: $ping undefined","completion":"$ping[undefined]"}
+{"prompt":"ForgeScript: $setBotAvatar <url>","completion":"$setBotAvatar[url]"}
+{"prompt":"ForgeScript: $setBotBanner <url>","completion":"$setBotBanner[url]"}
+{"prompt":"ForgeScript: $setBotDescription <description>","completion":"$setBotDescription[description]"}
+{"prompt":"ForgeScript: $setBotName <name>","completion":"$setBotName[name]"}
+{"prompt":"ForgeScript: $setBotTags <tags>","completion":"$setBotTags[tags]"}
+{"prompt":"ForgeScript: $setStatus <presence> <type> <name> <state> <url>","completion":"$setStatus[presence;type;name;state;url]"}
+{"prompt":"ForgeScript: $shardCount undefined","completion":"$shardCount[undefined]"}
+{"prompt":"ForgeScript: $shardID <separator>","completion":"$shardID[separator]"}
+{"prompt":"ForgeScript: $shardStatus <separator>","completion":"$shardStatus[separator]"}
+{"prompt":"ForgeScript: $updateApplicationCommands undefined","completion":"$updateApplicationCommands[undefined]"}
+{"prompt":"ForgeScript: $updateCommands undefined","completion":"$updateCommands[undefined]"}
+{"prompt":"ForgeScript: $uptime undefined","completion":"$uptime[undefined]"}
+{"prompt":"ForgeScript: $version undefined","completion":"$version[undefined]"}
+{"prompt":"ForgeScript: $bufferAlloc <variable name> <bytes>","completion":"$bufferAlloc[variable name;bytes]"}
+{"prompt":"ForgeScript: $bufferAllocUnsafe <variable name> <bytes>","completion":"$bufferAllocUnsafe[variable name;bytes]"}
+{"prompt":"ForgeScript: $bufferLength <variable name>","completion":"$bufferLength[variable name]"}
+{"prompt":"ForgeScript: $bufferReadInt32 <variable name> <index>","completion":"$bufferReadInt32[variable name;index]"}
+{"prompt":"ForgeScript: $bufferReadUtf8 <variable name> <index> <end index>","completion":"$bufferReadUtf8[variable name;index;end index]"}
+{"prompt":"ForgeScript: $bufferResize <variable name> <length>","completion":"$bufferResize[variable name;length]"}
+{"prompt":"ForgeScript: $bufferToString <variable name> <encoding>","completion":"$bufferToString[variable name;encoding]"}
+{"prompt":"ForgeScript: $bufferWriteInt32 <variable name> <index> <int>","completion":"$bufferWriteInt32[variable name;index;int]"}
+{"prompt":"ForgeScript: $bufferWriteUtf8 <variable name> <index> <text>","completion":"$bufferWriteUtf8[variable name;index;text]"}
+{"prompt":"ForgeScript: $addChannelPerms <channel ID> <id> <perms>","completion":"$addChannelPerms[channel ID;id;perms]"}
+{"prompt":"ForgeScript: $addForumTags <channel ID> <reason> <tags>","completion":"$addForumTags[channel ID;reason;tags]"}
+{"prompt":"ForgeScript: $addThreadMember <guild ID> <channel ID> <user ID> <reason>","completion":"$addThreadMember[guild ID;channel ID;user ID;reason]"}
+{"prompt":"ForgeScript: $archiveThread <channel ID> <reason>","completion":"$archiveThread[channel ID;reason]"}
+{"prompt":"ForgeScript: $channelBitrate <channel ID>","completion":"$channelBitrate[channel ID]"}
+{"prompt":"ForgeScript: $channelCategoryID <channel ID>","completion":"$channelCategoryID[channel ID]"}
+{"prompt":"ForgeScript: $channelChildrenCount <channel ID>","completion":"$channelChildrenCount[channel ID]"}
+{"prompt":"ForgeScript: $channelChildrenIDs <channel ID> <separator>","completion":"$channelChildrenIDs[channel ID;separator]"}
+{"prompt":"ForgeScript: $channelCount <categories>","completion":"$channelCount[categories]"}
+{"prompt":"ForgeScript: $channelCreatedAt <channel ID>","completion":"$channelCreatedAt[channel ID]"}
+{"prompt":"ForgeScript: $channelDeletable <channel ID>","completion":"$channelDeletable[channel ID]"}
+{"prompt":"ForgeScript: $channelExists <channel ID>","completion":"$channelExists[channel ID]"}
+{"prompt":"ForgeScript: $channelFlags <channel ID> <separator>","completion":"$channelFlags[channel ID;separator]"}
+{"prompt":"ForgeScript: $channelFull <channel ID>","completion":"$channelFull[channel ID]"}
+{"prompt":"ForgeScript: $channelGuildID <channel ID>","completion":"$channelGuildID[channel ID]"}
+{"prompt":"ForgeScript: $channelHasAnyPerms <channel ID> <id> <permissions>","completion":"$channelHasAnyPerms[channel ID;id;permissions]"}
+{"prompt":"ForgeScript: $channelHasPerms <channel ID> <id> <permissions>","completion":"$channelHasPerms[channel ID;id;permissions]"}
+{"prompt":"ForgeScript: $channelID <name>","completion":"$channelID[name]"}
+{"prompt":"ForgeScript: $channelIDs <separator>","completion":"$channelIDs[separator]"}
+{"prompt":"ForgeScript: $channelIsChildrenOf <channel ID> <category ID>","completion":"$channelIsChildrenOf[channel ID;category ID]"}
+{"prompt":"ForgeScript: $channelJoinable <channel ID>","completion":"$channelJoinable[channel ID]"}
+{"prompt":"ForgeScript: $channelManageable <channel ID>","completion":"$channelManageable[channel ID]"}
+{"prompt":"ForgeScript: $channelMembers <channel ID> <separator>","completion":"$channelMembers[channel ID;separator]"}
+{"prompt":"ForgeScript: $channelNSFW <channel ID>","completion":"$channelNSFW[channel ID]"}
+{"prompt":"ForgeScript: $channelName <channel ID>","completion":"$channelName[channel ID]"}
+{"prompt":"ForgeScript: $channelNames <guild ID> <separator>","completion":"$channelNames[guild ID;separator]"}
+{"prompt":"ForgeScript: $channelPermissions <channel ID> <property> <separator>","completion":"$channelPermissions[channel ID;property;separator]"}
+{"prompt":"ForgeScript: $channelPermissionsFor <channel ID> <id> <separator>","completion":"$channelPermissionsFor[channel ID;id;separator]"}
+{"prompt":"ForgeScript: $channelPermissionsOf <channel ID> <id> <state> <separator>","completion":"$channelPermissionsOf[channel ID;id;state;separator]"}
+{"prompt":"ForgeScript: $channelPinnedMessages <channel ID> <separator>","completion":"$channelPinnedMessages[channel ID;separator]"}
+{"prompt":"ForgeScript: $channelPosition <channel ID>","completion":"$channelPosition[channel ID]"}
+{"prompt":"ForgeScript: $channelRawData <channel ID>","completion":"$channelRawData[channel ID]"}
+{"prompt":"ForgeScript: $channelSlowmode <channel ID>","completion":"$channelSlowmode[channel ID]"}
+{"prompt":"ForgeScript: $channelTags <channel ID> <separator>","completion":"$channelTags[channel ID;separator]"}
+{"prompt":"ForgeScript: $channelTopic <channel ID>","completion":"$channelTopic[channel ID]"}
+{"prompt":"ForgeScript: $channelType <channel ID>","completion":"$channelType[channel ID]"}
+{"prompt":"ForgeScript: $channelURL <channel ID>","completion":"$channelURL[channel ID]"}
+{"prompt":"ForgeScript: $channelUserLimit <channel ID>","completion":"$channelUserLimit[channel ID]"}
+{"prompt":"ForgeScript: $channelVoiceMemberCount <channel ID>","completion":"$channelVoiceMemberCount[channel ID]"}
+{"prompt":"ForgeScript: $channelVoiceMemberIDs <channel ID> <separator>","completion":"$channelVoiceMemberIDs[channel ID;separator]"}
+{"prompt":"ForgeScript: $channelVoiceRegion <channel ID>","completion":"$channelVoiceRegion[channel ID]"}
+{"prompt":"ForgeScript: $channelWebhooks <channel ID> <property> <separator>","completion":"$channelWebhooks[channel ID;property;separator]"}
+{"prompt":"ForgeScript: $clearChannelPerms <channel ID> <id>","completion":"$clearChannelPerms[channel ID;id]"}
+{"prompt":"ForgeScript: $clearMessages <channel ID> <amount> <delete pinned> <delete bots>","completion":"$clearMessages[channel ID;amount;delete pinned;delete bots]"}
+{"prompt":"ForgeScript: $clearUserMessages <channel ID> <user ID> <amount> <delete pinned>","completion":"$clearUserMessages[channel ID;user ID;amount;delete pinned]"}
+{"prompt":"ForgeScript: $cloneChannel <channel ID> <name>","completion":"$cloneChannel[channel ID;name]"}
+{"prompt":"ForgeScript: $cloneChannelPerms <channel ID> <channel ID>","completion":"$cloneChannelPerms[channel ID;channel ID]"}
+{"prompt":"ForgeScript: $createChannel <guild ID> <channel name> <channel type> <topic> <parent ID>","completion":"$createChannel[guild ID;channel name;channel type;topic;parent ID]"}
+{"prompt":"ForgeScript: $createForumPost <channel ID> <title> <description> <tags>","completion":"$createForumPost[channel ID;title;description;tags]"}
+{"prompt":"ForgeScript: $createInvite <channel ID> <max uses> <max age> <reason>","completion":"$createInvite[channel ID;max uses;max age;reason]"}
+{"prompt":"ForgeScript: $createStageInstance <channel ID> <topic> <privacy level> <notify> <event ID>","completion":"$createStageInstance[channel ID;topic;privacy level;notify;event ID]"}
+{"prompt":"ForgeScript: $createThread <channel ID> <name> <message ID> <private> <reason>","completion":"$createThread[channel ID;name;message ID;private;reason]"}
+{"prompt":"ForgeScript: $deleteChannelPerms <channel ID> <id> <perms>","completion":"$deleteChannelPerms[channel ID;id;perms]"}
+{"prompt":"ForgeScript: $deleteChannels <channels>","completion":"$deleteChannels[channels]"}
+{"prompt":"ForgeScript: $deleteStageInstance <stage ID>","completion":"$deleteStageInstance[stage ID]"}
+{"prompt":"ForgeScript: $deleteThread <channel ID> <reason>","completion":"$deleteThread[channel ID;reason]"}
+{"prompt":"ForgeScript: $dmChannelID <user ID>","completion":"$dmChannelID[user ID]"}
+{"prompt":"ForgeScript: $editStageInstance <stage ID> <topic> <privacy level>","completion":"$editStageInstance[stage ID;topic;privacy level]"}
+{"prompt":"ForgeScript: $fetchChannels <guild ID> <channel ID>","completion":"$fetchChannels[guild ID;channel ID]"}
+{"prompt":"ForgeScript: $firstMessageID <channel ID>","completion":"$firstMessageID[channel ID]"}
+{"prompt":"ForgeScript: $followChannel <channel ID> <channel ID> <reason>","completion":"$followChannel[channel ID;channel ID;reason]"}
+{"prompt":"ForgeScript: $forumDefaultLayout <channel ID>","completion":"$forumDefaultLayout[channel ID]"}
+{"prompt":"ForgeScript: $forumDefaultReactionEmoji <channel ID>","completion":"$forumDefaultReactionEmoji[channel ID]"}
+{"prompt":"ForgeScript: $forumDefaultSortOrder <channel ID>","completion":"$forumDefaultSortOrder[channel ID]"}
+{"prompt":"ForgeScript: $forumDefaultThreadArchiveDuration <channel ID>","completion":"$forumDefaultThreadArchiveDuration[channel ID]"}
+{"prompt":"ForgeScript: $forumDefaultThreadSlowmode <channel ID>","completion":"$forumDefaultThreadSlowmode[channel ID]"}
+{"prompt":"ForgeScript: $forumTags <channel ID> <property> <separator>","completion":"$forumTags[channel ID;property;separator]"}
+{"prompt":"ForgeScript: $getStageInstance <stage ID> <property>","completion":"$getStageInstance[stage ID;property]"}
+{"prompt":"ForgeScript: $getThreadMembers <channel ID> <separator>","completion":"$getThreadMembers[channel ID;separator]"}
+{"prompt":"ForgeScript: $guildChannelID <guild ID> <name>","completion":"$guildChannelID[guild ID;name]"}
+{"prompt":"ForgeScript: $lastMessageID <channel ID> <user ID>","completion":"$lastMessageID[channel ID;user ID]"}
+{"prompt":"ForgeScript: $lastPinTimestamp <channel ID>","completion":"$lastPinTimestamp[channel ID]"}
+{"prompt":"ForgeScript: $lockThread <channel ID> <reason>","completion":"$lockThread[channel ID;reason]"}
+{"prompt":"ForgeScript: $modifyChannelPerms <channel ID> <roleOrUser> <perms>","completion":"$modifyChannelPerms[channel ID;roleOrUser;perms]"}
+{"prompt":"ForgeScript: $modifyForumTags <channel ID> <reason> <tags>","completion":"$modifyForumTags[channel ID;reason;tags]"}
+{"prompt":"ForgeScript: $randomChannelID undefined","completion":"$randomChannelID[undefined]"}
+{"prompt":"ForgeScript: $randomGuildChannelID <guild ID> <types>","completion":"$randomGuildChannelID[guild ID;types]"}
+{"prompt":"ForgeScript: $removeChannelPerms <channel ID> <id> <perms>","completion":"$removeChannelPerms[channel ID;id;perms]"}
+{"prompt":"ForgeScript: $removeThreadMember <guild ID> <channel ID> <user ID> <reason>","completion":"$removeThreadMember[guild ID;channel ID;user ID;reason]"}
+{"prompt":"ForgeScript: $sendMessage <channel ID> <content> <return message ID>","completion":"$sendMessage[channel ID;content;return message ID]"}
+{"prompt":"ForgeScript: $setChannelArchiveDuration <channel ID> <duration> <reason>","completion":"$setChannelArchiveDuration[channel ID;duration;reason]"}
+{"prompt":"ForgeScript: $setChannelCategory <channel ID> <category ID>","completion":"$setChannelCategory[channel ID;category ID]"}
+{"prompt":"ForgeScript: $setChannelNSFW <channel ID> <state>","completion":"$setChannelNSFW[channel ID;state]"}
+{"prompt":"ForgeScript: $setChannelName <channel ID> <name>","completion":"$setChannelName[channel ID;name]"}
+{"prompt":"ForgeScript: $setChannelSlowmode <channel ID> <seconds>","completion":"$setChannelSlowmode[channel ID;seconds]"}
+{"prompt":"ForgeScript: $setChannelTopic <channel ID> <topic>","completion":"$setChannelTopic[channel ID;topic]"}
+{"prompt":"ForgeScript: $setDefaultForumLayout <channel ID> <layout> <reason>","completion":"$setDefaultForumLayout[channel ID;layout;reason]"}
+{"prompt":"ForgeScript: $setDefaultReactionEmoji <channel ID> <emoji> <reason>","completion":"$setDefaultReactionEmoji[channel ID;emoji;reason]"}
+{"prompt":"ForgeScript: $setDefaultSortOrder <channel ID> <layout> <reason>","completion":"$setDefaultSortOrder[channel ID;layout;reason]"}
+{"prompt":"ForgeScript: $setDefaultThreadArchiveDuration <channel ID> <duration> <reason>","completion":"$setDefaultThreadArchiveDuration[channel ID;duration;reason]"}
+{"prompt":"ForgeScript: $setDefaultThreadSlowmode <channel ID> <seconds> <reason>","completion":"$setDefaultThreadSlowmode[channel ID;seconds;reason]"}
+{"prompt":"ForgeScript: $setThreadArchiveDuration <channel ID> <duration> <reason>","completion":"$setThreadArchiveDuration[channel ID;duration;reason]"}
+{"prompt":"ForgeScript: $setVoiceBitrate <channel ID> <bitrate> <reason>","completion":"$setVoiceBitrate[channel ID;bitrate;reason]"}
+{"prompt":"ForgeScript: $setVoiceDeaf <guild ID> <user ID> <reason>","completion":"$setVoiceDeaf[guild ID;user ID;reason]"}
+{"prompt":"ForgeScript: $setVoiceMute <guild ID> <user ID> <reason>","completion":"$setVoiceMute[guild ID;user ID;reason]"}
+{"prompt":"ForgeScript: $setVoiceRegion <channel ID> <region> <reason>","completion":"$setVoiceRegion[channel ID;region;reason]"}
+{"prompt":"ForgeScript: $setVoiceUndeaf <guild ID> <user ID> <reason>","completion":"$setVoiceUndeaf[guild ID;user ID;reason]"}
+{"prompt":"ForgeScript: $setVoiceUnmute <guild ID> <user ID> <reason>","completion":"$setVoiceUnmute[guild ID;user ID;reason]"}
+{"prompt":"ForgeScript: $setVoiceUserLimit <channel ID> <limit> <reason>","completion":"$setVoiceUserLimit[channel ID;limit;reason]"}
+{"prompt":"ForgeScript: $setVoiceVideoQuality <channel ID> <quality> <reason>","completion":"$setVoiceVideoQuality[channel ID;quality;reason]"}
+{"prompt":"ForgeScript: $startTyping <channel ID>","completion":"$startTyping[channel ID]"}
+{"prompt":"ForgeScript: $threadIsArchived <channel ID>","completion":"$threadIsArchived[channel ID]"}
+{"prompt":"ForgeScript: $threadOwnerID <channel ID>","completion":"$threadOwnerID[channel ID]"}
+{"prompt":"ForgeScript: $threadStarterMessageID <channel ID>","completion":"$threadStarterMessageID[channel ID]"}
+{"prompt":"ForgeScript: $threadTotalMessagesSent <channel ID>","completion":"$threadTotalMessagesSent[channel ID]"}
+{"prompt":"ForgeScript: $transcript <channel ID> <variable> <code> <separator> <full>","completion":"$transcript[channel ID;variable;code;separator;full]"}
+{"prompt":"ForgeScript: $unarchiveThread <channel ID> <reason>","completion":"$unarchiveThread[channel ID;reason]"}
+{"prompt":"ForgeScript: $unlockThread <channel ID> <reason>","completion":"$unlockThread[channel ID;reason]"}
+{"prompt":"ForgeScript: $commandCount <categories>","completion":"$commandCount[categories]"}
+{"prompt":"ForgeScript: $commandInfo <type> <name> <property>","completion":"$commandInfo[type;name;property]"}
+{"prompt":"ForgeScript: $commandName undefined","completion":"$commandName[undefined]"}
+{"prompt":"ForgeScript: $commandNames <type> <separator>","completion":"$commandNames[type;separator]"}
+{"prompt":"ForgeScript: $deleteCommand undefined","completion":"$deleteCommand[undefined]"}
+{"prompt":"ForgeScript: $addActionRow undefined","completion":"$addActionRow[undefined]"}
+{"prompt":"ForgeScript: $addActionRowTo <channel ID> <message ID> <components> <keep existing rows>","completion":"$addActionRowTo[channel ID;message ID;components;keep existing rows]"}
+{"prompt":"ForgeScript: $addButton <custom ID> <label> <style> <emoji> <disabled>","completion":"$addButton[custom ID;label;style;emoji;disabled]"}
+{"prompt":"ForgeScript: $addButtonTo <channel ID> <message ID> <custom ID> <label> <style> <emoji> <disabled>","completion":"$addButtonTo[channel ID;message ID;custom ID;label;style;emoji;disabled]"}
+{"prompt":"ForgeScript: $addChannelSelectMenu <custom ID> <placeholder> <min values> <max values> <disabled> <default channels>","completion":"$addChannelSelectMenu[custom ID;placeholder;min values;max values;disabled;default channels]"}
+{"prompt":"ForgeScript: $addChannelType <types>","completion":"$addChannelType[types]"}
+{"prompt":"ForgeScript: $addChoice <choice name> <choice value>","completion":"$addChoice[choice name;choice value]"}
+{"prompt":"ForgeScript: $addContainer <components> <color> <spoiler>","completion":"$addContainer[components;color;spoiler]"}
+{"prompt":"ForgeScript: $addDefaultChannelOption <channel IDs>","completion":"$addDefaultChannelOption[channel IDs]"}
+{"prompt":"ForgeScript: $addDefaultRoleOption <role IDs>","completion":"$addDefaultRoleOption[role IDs]"}
+{"prompt":"ForgeScript: $addDefaultUserOption <user IDs>","completion":"$addDefaultUserOption[user IDs]"}
+{"prompt":"ForgeScript: $addFile <url> <spoiler>","completion":"$addFile[url;spoiler]"}
+{"prompt":"ForgeScript: $addMediaGallery <items>","completion":"$addMediaGallery[items]"}
+{"prompt":"ForgeScript: $addMediaItem <url> <description> <spoiler>","completion":"$addMediaItem[url;description;spoiler]"}
+{"prompt":"ForgeScript: $addMentionableSelectMenu <custom ID> <placeholder> <min values> <max values> <disabled>","completion":"$addMentionableSelectMenu[custom ID;placeholder;min values;max values;disabled]"}
+{"prompt":"ForgeScript: $addMentionableSelectMenuTo <channel ID> <message ID> <custom ID> <placeholder> <min values> <max values> <disabled>","completion":"$addMentionableSelectMenuTo[channel ID;message ID;custom ID;placeholder;min values;max values;disabled]"}
+{"prompt":"ForgeScript: $addOption <name> <description> <value> <emoji> <default>","completion":"$addOption[name;description;value;emoji;default]"}
+{"prompt":"ForgeScript: $addRoleSelectMenu <custom ID> <placeholder> <min values> <max values> <disabled> <default roles>","completion":"$addRoleSelectMenu[custom ID;placeholder;min values;max values;disabled;default roles]"}
+{"prompt":"ForgeScript: $addRoleSelectMenuTo <channel ID> <message ID> <custom ID> <placeholder> <min values> <max values> <disabled> <default roles>","completion":"$addRoleSelectMenuTo[channel ID;message ID;custom ID;placeholder;min values;max values;disabled;default roles]"}
+{"prompt":"ForgeScript: $addSection <components>","completion":"$addSection[components]"}
+{"prompt":"ForgeScript: $addSeparator <spacing> <divider>","completion":"$addSeparator[spacing;divider]"}
+{"prompt":"ForgeScript: $addStringSelectMenu <custom ID> <placeholder> <disabled> <min values> <max values>","completion":"$addStringSelectMenu[custom ID;placeholder;disabled;min values;max values]"}
+{"prompt":"ForgeScript: $addStringSelectMenuTo <channel ID> <message ID> <custom ID> <placeholder> <disabled> <min values> <max values>","completion":"$addStringSelectMenuTo[channel ID;message ID;custom ID;placeholder;disabled;min values;max values]"}
+{"prompt":"ForgeScript: $addTextDisplay <content>","completion":"$addTextDisplay[content]"}
+{"prompt":"ForgeScript: $addTextInput <custom ID> <name> <type> <required> <placeholder> <default value> <minimum length> <maximum length>","completion":"$addTextInput[custom ID;name;type;required;placeholder;default value;minimum length;maximum length]"}
+{"prompt":"ForgeScript: $addThumbnail <url> <description> <spoiler>","completion":"$addThumbnail[url;description;spoiler]"}
+{"prompt":"ForgeScript: $addUserSelectMenu <custom ID> <placeholder> <min values> <max values> <disabled> <default users>","completion":"$addUserSelectMenu[custom ID;placeholder;min values;max values;disabled;default users]"}
+{"prompt":"ForgeScript: $addUserSelectMenuTo <channel ID> <message ID> <custom ID> <placeholder> <min values> <max values> <disabled> <default users>","completion":"$addUserSelectMenuTo[channel ID;message ID;custom ID;placeholder;min values;max values;disabled;default users]"}
+{"prompt":"ForgeScript: $deleteActionRow <index>","completion":"$deleteActionRow[index]"}
+{"prompt":"ForgeScript: $deleteActionRowFrom <channel ID> <message ID> <index>","completion":"$deleteActionRowFrom[channel ID;message ID;index]"}
+{"prompt":"ForgeScript: $deleteComponent <custom ID>","completion":"$deleteComponent[custom ID]"}
+{"prompt":"ForgeScript: $deleteComponentFrom <channel ID> <message ID> <custom ID>","completion":"$deleteComponentFrom[channel ID;message ID;custom ID]"}
+{"prompt":"ForgeScript: $disableButtons <index>","completion":"$disableButtons[index]"}
+{"prompt":"ForgeScript: $disableButtonsOf <channel ID> <message ID> <index>","completion":"$disableButtonsOf[channel ID;message ID;index]"}
+{"prompt":"ForgeScript: $disableComponents undefined","completion":"$disableComponents[undefined]"}
+{"prompt":"ForgeScript: $disableComponentsOf <channel ID> <message ID>","completion":"$disableComponentsOf[channel ID;message ID]"}
+{"prompt":"ForgeScript: $editButton <custom ID> <new custom ID> <label> <style> <emoji> <disabled>","completion":"$editButton[custom ID;new custom ID;label;style;emoji;disabled]"}
+{"prompt":"ForgeScript: $editButtonOf <channel ID> <message ID> <custom ID> <new custom ID> <label> <style> <emoji> <disabled>","completion":"$editButtonOf[channel ID;message ID;custom ID;new custom ID;label;style;emoji;disabled]"}
+{"prompt":"ForgeScript: $editChannelSelectMenu <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values> <default channels>","completion":"$editChannelSelectMenu[old custom ID;new custom ID;placeholder;disabled;min values;max values;default channels]"}
+{"prompt":"ForgeScript: $editChannelSelectMenuOf <channel ID> <message ID> <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values> <default channels>","completion":"$editChannelSelectMenuOf[channel ID;message ID;old custom ID;new custom ID;placeholder;disabled;min values;max values;default channels]"}
+{"prompt":"ForgeScript: $editMentionableSelectMenu <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values>","completion":"$editMentionableSelectMenu[old custom ID;new custom ID;placeholder;disabled;min values;max values]"}
+{"prompt":"ForgeScript: $editMentionableSelectMenuOf <channel ID> <message ID> <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values>","completion":"$editMentionableSelectMenuOf[channel ID;message ID;old custom ID;new custom ID;placeholder;disabled;min values;max values]"}
+{"prompt":"ForgeScript: $editOption <name> <new name> <description> <value> <emoji> <default>","completion":"$editOption[name;new name;description;value;emoji;default]"}
+{"prompt":"ForgeScript: $editRoleSelectMenu <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values> <default roles>","completion":"$editRoleSelectMenu[old custom ID;new custom ID;placeholder;disabled;min values;max values;default roles]"}
+{"prompt":"ForgeScript: $editRoleSelectMenuOf <channel ID> <message ID> <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values> <default roles>","completion":"$editRoleSelectMenuOf[channel ID;message ID;old custom ID;new custom ID;placeholder;disabled;min values;max values;default roles]"}
+{"prompt":"ForgeScript: $editStringSelectMenu <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values>","completion":"$editStringSelectMenu[old custom ID;new custom ID;placeholder;disabled;min values;max values]"}
+{"prompt":"ForgeScript: $editStringSelectMenuOf <channel ID> <message ID> <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values>","completion":"$editStringSelectMenuOf[channel ID;message ID;old custom ID;new custom ID;placeholder;disabled;min values;max values]"}
+{"prompt":"ForgeScript: $editUserSelectMenu <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values> <default users>","completion":"$editUserSelectMenu[old custom ID;new custom ID;placeholder;disabled;min values;max values;default users]"}
+{"prompt":"ForgeScript: $editUserSelectMenuOf <channel ID> <message ID> <old custom ID> <new custom ID> <placeholder> <disabled> <min values> <max values> <default users>","completion":"$editUserSelectMenuOf[channel ID;message ID;old custom ID;new custom ID;placeholder;disabled;min values;max values;default users]"}
+{"prompt":"ForgeScript: $enableButtons <index>","completion":"$enableButtons[index]"}
+{"prompt":"ForgeScript: $enableButtonsOf <channel ID> <message ID> <index>","completion":"$enableButtonsOf[channel ID;message ID;index]"}
+{"prompt":"ForgeScript: $enableComponents undefined","completion":"$enableComponents[undefined]"}
+{"prompt":"ForgeScript: $enableComponentsOf <channel ID> <message ID>","completion":"$enableComponentsOf[channel ID;message ID]"}
+{"prompt":"ForgeScript: $setChannelType <types>","completion":"$setChannelType[types]"}
+{"prompt":"ForgeScript: $and <conditions>","completion":"$and[conditions]"}
+{"prompt":"ForgeScript: $checkCondition <condition>","completion":"$checkCondition[condition]"}
+{"prompt":"ForgeScript: $isBoolean <value>","completion":"$isBoolean[value]"}
+{"prompt":"ForgeScript: $isValidHex <hex>","completion":"$isValidHex[hex]"}
+{"prompt":"ForgeScript: $isValidLink <link>","completion":"$isValidLink[link]"}
+{"prompt":"ForgeScript: $or <conditions>","completion":"$or[conditions]"}
+{"prompt":"ForgeScript: $channelCooldown <channel ID> <duration> <code>","completion":"$channelCooldown[channel ID;duration;code]"}
+{"prompt":"ForgeScript: $cooldown <id> <duration> <code>","completion":"$cooldown[id;duration;code]"}
+{"prompt":"ForgeScript: $deleteChannelCooldown <channel ID>","completion":"$deleteChannelCooldown[channel ID]"}
+{"prompt":"ForgeScript: $deleteCooldown <id>","completion":"$deleteCooldown[id]"}
+{"prompt":"ForgeScript: $deleteGuildCooldown <guild ID>","completion":"$deleteGuildCooldown[guild ID]"}
+{"prompt":"ForgeScript: $deleteMemberCooldown <guild ID> <user ID>","completion":"$deleteMemberCooldown[guild ID;user ID]"}
+{"prompt":"ForgeScript: $deleteUserCooldown <user ID>","completion":"$deleteUserCooldown[user ID]"}
+{"prompt":"ForgeScript: $getCooldownTime <id>","completion":"$getCooldownTime[id]"}
+{"prompt":"ForgeScript: $getGuildCooldownTime <guild ID>","completion":"$getGuildCooldownTime[guild ID]"}
+{"prompt":"ForgeScript: $getMemberCooldownTime <guild ID> <user ID>","completion":"$getMemberCooldownTime[guild ID;user ID]"}
+{"prompt":"ForgeScript: $getUserCooldownTime <user ID>","completion":"$getUserCooldownTime[user ID]"}
+{"prompt":"ForgeScript: $guildCooldown <guild ID> <duration> <code>","completion":"$guildCooldown[guild ID;duration;code]"}
+{"prompt":"ForgeScript: $memberCooldown <guild ID> <user ID> <duration> <code>","completion":"$memberCooldown[guild ID;user ID;duration;code]"}
+{"prompt":"ForgeScript: $userCooldown <user ID> <duration> <code>","completion":"$userCooldown[user ID;duration;code]"}
+{"prompt":"ForgeScript: $createQueryParams <param name;param value>","completion":"$createQueryParams[param name;param value]"}
+{"prompt":"ForgeScript: $decodeURI <text>","completion":"$decodeURI[text]"}
+{"prompt":"ForgeScript: $decodeURIComponent <text>","completion":"$decodeURIComponent[text]"}
+{"prompt":"ForgeScript: $decrypt <text> <key>","completion":"$decrypt[text;key]"}
+{"prompt":"ForgeScript: $deflate <input> <encoding>","completion":"$deflate[input;encoding]"}
+{"prompt":"ForgeScript: $encodeURI <text>","completion":"$encodeURI[text]"}
+{"prompt":"ForgeScript: $encodeURIComponent <text>","completion":"$encodeURIComponent[text]"}
+{"prompt":"ForgeScript: $encrypt <text> <key>","completion":"$encrypt[text;key]"}
+{"prompt":"ForgeScript: $inflate <input> <encoding>","completion":"$inflate[input;encoding]"}
+{"prompt":"ForgeScript: $md5 <input> <encoding>","completion":"$md5[input;encoding]"}
+{"prompt":"ForgeScript: $randomBytes <length>","completion":"$randomBytes[length]"}
+{"prompt":"ForgeScript: $sha256 <input> <encoding>","completion":"$sha256[input;encoding]"}
+{"prompt":"ForgeScript: $sha512 <input> <encoding>","completion":"$sha512[input;encoding]"}
+{"prompt":"ForgeScript: $addField <name> <value> <inline> <index>","completion":"$addField[name;value;inline;index]"}
+{"prompt":"ForgeScript: $author <name> <icon> <hyperlink> <index>","completion":"$author[name;icon;hyperlink;index]"}
+{"prompt":"ForgeScript: $color <color> <index>","completion":"$color[color;index]"}
+{"prompt":"ForgeScript: $deleteField <field index> <index>","completion":"$deleteField[field index;index]"}
+{"prompt":"ForgeScript: $description <description> <index>","completion":"$description[description;index]"}
+{"prompt":"ForgeScript: $editField <field index> <name> <value> <inline> <index>","completion":"$editField[field index;name;value;inline;index]"}
+{"prompt":"ForgeScript: $footer <text> <url> <index>","completion":"$footer[text;url;index]"}
+{"prompt":"ForgeScript: $image <url> <index>","completion":"$image[url;index]"}
+{"prompt":"ForgeScript: $thumbnail <url> <index>","completion":"$thumbnail[url;index]"}
+{"prompt":"ForgeScript: $timestamp <ms> <index>","completion":"$timestamp[ms;index]"}
+{"prompt":"ForgeScript: $title <title> <hyperlink> <index>","completion":"$title[title;hyperlink;index]"}
+{"prompt":"ForgeScript: $addApplicationEmoji <name> <url> <return emoji ID>","completion":"$addApplicationEmoji[name;url;return emoji ID]"}
+{"prompt":"ForgeScript: $addEmoji <guild ID> <name> <url> <return emoji ID> <roles>","completion":"$addEmoji[guild ID;name;url;return emoji ID;roles]"}
+{"prompt":"ForgeScript: $deleteApplicationEmojis <emojis>","completion":"$deleteApplicationEmojis[emojis]"}
+{"prompt":"ForgeScript: $deleteEmojiMessageReactions <channel ID> <message ID> <emojis>","completion":"$deleteEmojiMessageReactions[channel ID;message ID;emojis]"}
+{"prompt":"ForgeScript: $deleteEmojis <guild ID> <emojis>","completion":"$deleteEmojis[guild ID;emojis]"}
+{"prompt":"ForgeScript: $editApplicationEmoji <emoji ID> <name>","completion":"$editApplicationEmoji[emoji ID;name]"}
+{"prompt":"ForgeScript: $editEmoji <guild ID> <emoji ID> <name> <reason> <roles>","completion":"$editEmoji[guild ID;emoji ID;name;reason;roles]"}
+{"prompt":"ForgeScript: $emoji <emoji ID>","completion":"$emoji[emoji ID]"}
+{"prompt":"ForgeScript: $emojiAnimated <emoji ID>","completion":"$emojiAnimated[emoji ID]"}
+{"prompt":"ForgeScript: $emojiCount <type>","completion":"$emojiCount[type]"}
+{"prompt":"ForgeScript: $emojiCreatedAt <emoji ID>","completion":"$emojiCreatedAt[emoji ID]"}
+{"prompt":"ForgeScript: $emojiExists <emoji ID>","completion":"$emojiExists[emoji ID]"}
+{"prompt":"ForgeScript: $emojiGuildID <emoji ID>","completion":"$emojiGuildID[emoji ID]"}
+{"prompt":"ForgeScript: $emojiID <emoji name>","completion":"$emojiID[emoji name]"}
+{"prompt":"ForgeScript: $emojiIDs <separator>","completion":"$emojiIDs[separator]"}
+{"prompt":"ForgeScript: $emojiIdentifier <emoji ID>","completion":"$emojiIdentifier[emoji ID]"}
+{"prompt":"ForgeScript: $emojiName <emoji ID>","completion":"$emojiName[emoji ID]"}
+{"prompt":"ForgeScript: $emojiNames <guild ID> <separator>","completion":"$emojiNames[guild ID;separator]"}
+{"prompt":"ForgeScript: $emojiRawData <emoji ID>","completion":"$emojiRawData[emoji ID]"}
+{"prompt":"ForgeScript: $emojiRequiresColons <emoji ID>","completion":"$emojiRequiresColons[emoji ID]"}
+{"prompt":"ForgeScript: $emojiRoles <emoji ID> <separator>","completion":"$emojiRoles[emoji ID;separator]"}
+{"prompt":"ForgeScript: $emojiURL <emoji ID>","completion":"$emojiURL[emoji ID]"}
+{"prompt":"ForgeScript: $getApplicationEmojis <property> <separator>","completion":"$getApplicationEmojis[property;separator]"}
+{"prompt":"ForgeScript: $randomApplicationEmojiID undefined","completion":"$randomApplicationEmojiID[undefined]"}
+{"prompt":"ForgeScript: $randomEmojiID undefined","completion":"$randomEmojiID[undefined]"}
+{"prompt":"ForgeScript: $randomGuildEmojiID <guild ID>","completion":"$randomGuildEmojiID[guild ID]"}
+{"prompt":"ForgeScript: $entitlementConsume <entitlement name>","completion":"$entitlementConsume[entitlement name]"}
+{"prompt":"ForgeScript: $entitlementEndTimestamp undefined","completion":"$entitlementEndTimestamp[undefined]"}
+{"prompt":"ForgeScript: $entitlementGuildID undefined","completion":"$entitlementGuildID[undefined]"}
+{"prompt":"ForgeScript: $entitlementID undefined","completion":"$entitlementID[undefined]"}
+{"prompt":"ForgeScript: $entitlementIsActive undefined","completion":"$entitlementIsActive[undefined]"}
+{"prompt":"ForgeScript: $entitlementIsConsumed undefined","completion":"$entitlementIsConsumed[undefined]"}
+{"prompt":"ForgeScript: $entitlementIsDeleted undefined","completion":"$entitlementIsDeleted[undefined]"}
+{"prompt":"ForgeScript: $entitlementIsGuildSubscription undefined","completion":"$entitlementIsGuildSubscription[undefined]"}
+{"prompt":"ForgeScript: $entitlementIsUserSubscription undefined","completion":"$entitlementIsUserSubscription[undefined]"}
+{"prompt":"ForgeScript: $entitlementSkuID undefined","completion":"$entitlementSkuID[undefined]"}
+{"prompt":"ForgeScript: $entitlementStartTimestamp undefined","completion":"$entitlementStartTimestamp[undefined]"}
+{"prompt":"ForgeScript: $entitlementType undefined","completion":"$entitlementType[undefined]"}
+{"prompt":"ForgeScript: $entitlementUserID undefined","completion":"$entitlementUserID[undefined]"}
+{"prompt":"ForgeScript: $hasAllEntitlements <entitlement name>","completion":"$hasAllEntitlements[entitlement name]"}
+{"prompt":"ForgeScript: $hasAnyEntitlement <entitlement name>","completion":"$hasAnyEntitlement[entitlement name]"}
+{"prompt":"ForgeScript: $hasEntitlement <entitlement name>","completion":"$hasEntitlement[entitlement name]"}
+{"prompt":"ForgeScript: $appendFile <path> <text> <encoding>","completion":"$appendFile[path;text;encoding]"}
+{"prompt":"ForgeScript: $copyFile <path> <destination>","completion":"$copyFile[path;destination]"}
+{"prompt":"ForgeScript: $deleteFile <path>","completion":"$deleteFile[path]"}
+{"prompt":"ForgeScript: $fileAccessedAt <path>","completion":"$fileAccessedAt[path]"}
+{"prompt":"ForgeScript: $fileBlockCount <path>","completion":"$fileBlockCount[path]"}
+{"prompt":"ForgeScript: $fileBlockSize <path>","completion":"$fileBlockSize[path]"}
+{"prompt":"ForgeScript: $fileChangedAt <path>","completion":"$fileChangedAt[path]"}
+{"prompt":"ForgeScript: $fileCreatedAt <path>","completion":"$fileCreatedAt[path]"}
+{"prompt":"ForgeScript: $fileExists <path>","completion":"$fileExists[path]"}
+{"prompt":"ForgeScript: $fileModifiedAt <path>","completion":"$fileModifiedAt[path]"}
+{"prompt":"ForgeScript: $fileSize <path>","completion":"$fileSize[path]"}
+{"prompt":"ForgeScript: $isDirectory <path>","completion":"$isDirectory[path]"}
+{"prompt":"ForgeScript: $isFile <path>","completion":"$isFile[path]"}
+{"prompt":"ForgeScript: $isSymbolicLink <path>","completion":"$isSymbolicLink[path]"}
+{"prompt":"ForgeScript: $mkdir <path>","completion":"$mkdir[path]"}
+{"prompt":"ForgeScript: $mktdir <prefix>","completion":"$mktdir[prefix]"}
+{"prompt":"ForgeScript: $moveFile <path> <destination>","completion":"$moveFile[path;destination]"}
+{"prompt":"ForgeScript: $pathJoin <paths>","completion":"$pathJoin[paths]"}
+{"prompt":"ForgeScript: $pathResolve <paths>","completion":"$pathResolve[paths]"}
+{"prompt":"ForgeScript: $readDir <path> <separator> <encoding>","completion":"$readDir[path;separator;encoding]"}
+{"prompt":"ForgeScript: $readFile <path> <encoding>","completion":"$readFile[path;encoding]"}
+{"prompt":"ForgeScript: $renameFile <old path> <new path>","completion":"$renameFile[old path;new path]"}
+{"prompt":"ForgeScript: $symlink <path> <other path>","completion":"$symlink[path;other path]"}
+{"prompt":"ForgeScript: $truncateFile <path> <length>","completion":"$truncateFile[path;length]"}
+{"prompt":"ForgeScript: $writeFile <path> <text> <encoding>","completion":"$writeFile[path;text;encoding]"}
+{"prompt":"ForgeScript: $bold <text>","completion":"$bold[text]"}
+{"prompt":"ForgeScript: $codeBlock <text> <lang>","completion":"$codeBlock[text;lang]"}
+{"prompt":"ForgeScript: $hyperlink <text> <url>","completion":"$hyperlink[text;url]"}
+{"prompt":"ForgeScript: $inlineCode <text>","completion":"$inlineCode[text]"}
+{"prompt":"ForgeScript: $italic <text>","completion":"$italic[text]"}
+{"prompt":"ForgeScript: $spoiler <text>","completion":"$spoiler[text]"}
+{"prompt":"ForgeScript: $strikethrough <text>","completion":"$strikethrough[text]"}
+{"prompt":"ForgeScript: $subtext <text>","completion":"$subtext[text]"}
+{"prompt":"ForgeScript: $underline <text>","completion":"$underline[text]"}
+{"prompt":"ForgeScript: $createGuild <name> <icon> <template>","completion":"$createGuild[name;icon;template]"}
+{"prompt":"ForgeScript: $createGuildTemplate <guild ID> <name> <description>","completion":"$createGuildTemplate[guild ID;name;description]"}
+{"prompt":"ForgeScript: $deleteGuild <guild ID>","completion":"$deleteGuild[guild ID]"}
+{"prompt":"ForgeScript: $deleteGuildApplicationCommands <guild ID>","completion":"$deleteGuildApplicationCommands[guild ID]"}
+{"prompt":"ForgeScript: $deleteGuildTemplate <template code>","completion":"$deleteGuildTemplate[template code]"}
+{"prompt":"ForgeScript: $editGuildTemplate <template code> <name> <description>","completion":"$editGuildTemplate[template code;name;description]"}
+{"prompt":"ForgeScript: $getGuildInvite <guild ID> <code> <property>","completion":"$getGuildInvite[guild ID;code;property]"}
+{"prompt":"ForgeScript: $getGuildTemplate <template code> <property>","completion":"$getGuildTemplate[template code;property]"}
+{"prompt":"ForgeScript: $guildAfkChannelID <guild ID>","completion":"$guildAfkChannelID[guild ID]"}
+{"prompt":"ForgeScript: $guildAfkTimeout <guild ID>","completion":"$guildAfkTimeout[guild ID]"}
+{"prompt":"ForgeScript: $guildApproximateMemberCount <guild ID>","completion":"$guildApproximateMemberCount[guild ID]"}
+{"prompt":"ForgeScript: $guildApproximatePresenceCount <guild ID>","completion":"$guildApproximatePresenceCount[guild ID]"}
+{"prompt":"ForgeScript: $guildAutomodRules <guild ID> <property> <separator>","completion":"$guildAutomodRules[guild ID;property;separator]"}
+{"prompt":"ForgeScript: $guildAvailable <guild ID>","completion":"$guildAvailable[guild ID]"}
+{"prompt":"ForgeScript: $guildBanReason <guild ID> <user ID>","completion":"$guildBanReason[guild ID;user ID]"}
+{"prompt":"ForgeScript: $guildBannedMembers <guild ID> <separator>","completion":"$guildBannedMembers[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildBanner <guild ID> <size> <extension>","completion":"$guildBanner[guild ID;size;extension]"}
+{"prompt":"ForgeScript: $guildBoostCount <guild ID>","completion":"$guildBoostCount[guild ID]"}
+{"prompt":"ForgeScript: $guildBoostLevel <guild ID>","completion":"$guildBoostLevel[guild ID]"}
+{"prompt":"ForgeScript: $guildBoostProgressBarEnabled <guild ID>","completion":"$guildBoostProgressBarEnabled[guild ID]"}
+{"prompt":"ForgeScript: $guildBoostRoleID <guild ID>","completion":"$guildBoostRoleID[guild ID]"}
+{"prompt":"ForgeScript: $guildBoosterIDs <guild ID> <separator>","completion":"$guildBoosterIDs[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildBotCount <guild ID>","completion":"$guildBotCount[guild ID]"}
+{"prompt":"ForgeScript: $guildChannelCount <guild ID> <categories>","completion":"$guildChannelCount[guild ID;categories]"}
+{"prompt":"ForgeScript: $guildChannelExists <guild ID> <channel ID>","completion":"$guildChannelExists[guild ID;channel ID]"}
+{"prompt":"ForgeScript: $guildChannelIDs <guild ID> <separator>","completion":"$guildChannelIDs[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildCount undefined","completion":"$guildCount[undefined]"}
+{"prompt":"ForgeScript: $guildCreatedAt <guild ID>","completion":"$guildCreatedAt[guild ID]"}
+{"prompt":"ForgeScript: $guildDefaultMessageNotifications <guild ID>","completion":"$guildDefaultMessageNotifications[guild ID]"}
+{"prompt":"ForgeScript: $guildDescription <guild ID>","completion":"$guildDescription[guild ID]"}
+{"prompt":"ForgeScript: $guildDiscoverySplash <guild ID> <size> <extension>","completion":"$guildDiscoverySplash[guild ID;size;extension]"}
+{"prompt":"ForgeScript: $guildDmSpamDetectedAt <guild ID>","completion":"$guildDmSpamDetectedAt[guild ID]"}
+{"prompt":"ForgeScript: $guildDmsDisabledUntil <guild ID>","completion":"$guildDmsDisabledUntil[guild ID]"}
+{"prompt":"ForgeScript: $guildEmojiCount <guild ID> <type>","completion":"$guildEmojiCount[guild ID;type]"}
+{"prompt":"ForgeScript: $guildEmojiIDs <guild ID> <separator>","completion":"$guildEmojiIDs[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildEmojiLimit <guild ID>","completion":"$guildEmojiLimit[guild ID]"}
+{"prompt":"ForgeScript: $guildEmojis <guild ID> <separator>","completion":"$guildEmojis[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildExists <guild ID>","completion":"$guildExists[guild ID]"}
+{"prompt":"ForgeScript: $guildExplicitContentFilter <guild ID>","completion":"$guildExplicitContentFilter[guild ID]"}
+{"prompt":"ForgeScript: $guildFeatures <guild ID> <separator>","completion":"$guildFeatures[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildHasAnyFeatures <guild ID> <features>","completion":"$guildHasAnyFeatures[guild ID;features]"}
+{"prompt":"ForgeScript: $guildHasFeatures <guild ID> <features>","completion":"$guildHasFeatures[guild ID;features]"}
+{"prompt":"ForgeScript: $guildHasTemplate <guild ID>","completion":"$guildHasTemplate[guild ID]"}
+{"prompt":"ForgeScript: $guildHighestRoleID <guild ID>","completion":"$guildHighestRoleID[guild ID]"}
+{"prompt":"ForgeScript: $guildID <name>","completion":"$guildID[name]"}
+{"prompt":"ForgeScript: $guildIDs <separator>","completion":"$guildIDs[separator]"}
+{"prompt":"ForgeScript: $guildIcon <guild ID> <size> <extension>","completion":"$guildIcon[guild ID;size;extension]"}
+{"prompt":"ForgeScript: $guildInviteExists <guild ID> <code>","completion":"$guildInviteExists[guild ID;code]"}
+{"prompt":"ForgeScript: $guildInvitesDisabledUntil <guild ID>","completion":"$guildInvitesDisabledUntil[guild ID]"}
+{"prompt":"ForgeScript: $guildLarge <guild ID>","completion":"$guildLarge[guild ID]"}
+{"prompt":"ForgeScript: $guildLeave <guild ID>","completion":"$guildLeave[guild ID]"}
+{"prompt":"ForgeScript: $guildLowestRoleID <guild ID>","completion":"$guildLowestRoleID[guild ID]"}
+{"prompt":"ForgeScript: $guildMFALevel <guild ID>","completion":"$guildMFALevel[guild ID]"}
+{"prompt":"ForgeScript: $guildMaxStageVideoChannelUsers <guild ID>","completion":"$guildMaxStageVideoChannelUsers[guild ID]"}
+{"prompt":"ForgeScript: $guildMaxVideoChannelUsers <guild ID>","completion":"$guildMaxVideoChannelUsers[guild ID]"}
+{"prompt":"ForgeScript: $guildMaximumBitrate <guild ID>","completion":"$guildMaximumBitrate[guild ID]"}
+{"prompt":"ForgeScript: $guildMaximumMembers <guild ID>","completion":"$guildMaximumMembers[guild ID]"}
+{"prompt":"ForgeScript: $guildMaximumPresences <guild ID>","completion":"$guildMaximumPresences[guild ID]"}
+{"prompt":"ForgeScript: $guildMemberCount <guild ID> <presence> <count bots>","completion":"$guildMemberCount[guild ID;presence;count bots]"}
+{"prompt":"ForgeScript: $guildMemberIDs <guild ID> <separator>","completion":"$guildMemberIDs[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildNSFWLevel <guild ID>","completion":"$guildNSFWLevel[guild ID]"}
+{"prompt":"ForgeScript: $guildName <guild ID>","completion":"$guildName[guild ID]"}
+{"prompt":"ForgeScript: $guildNameAcronym <guild ID>","completion":"$guildNameAcronym[guild ID]"}
+{"prompt":"ForgeScript: $guildNames <separator>","completion":"$guildNames[separator]"}
+{"prompt":"ForgeScript: $guildOwnerID <guild ID>","completion":"$guildOwnerID[guild ID]"}
+{"prompt":"ForgeScript: $guildPartnered <guild ID>","completion":"$guildPartnered[guild ID]"}
+{"prompt":"ForgeScript: $guildPreferredLocale <guild ID>","completion":"$guildPreferredLocale[guild ID]"}
+{"prompt":"ForgeScript: $guildPublicUpdatesChannelID <guild ID>","completion":"$guildPublicUpdatesChannelID[guild ID]"}
+{"prompt":"ForgeScript: $guildRaidDetectedAt <guild ID>","completion":"$guildRaidDetectedAt[guild ID]"}
+{"prompt":"ForgeScript: $guildRawData <guild ID>","completion":"$guildRawData[guild ID]"}
+{"prompt":"ForgeScript: $guildRoleCount <guild ID>","completion":"$guildRoleCount[guild ID]"}
+{"prompt":"ForgeScript: $guildRoleIDs <guild ID> <separator>","completion":"$guildRoleIDs[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildRulesChannelID <guild ID>","completion":"$guildRulesChannelID[guild ID]"}
+{"prompt":"ForgeScript: $guildSafetyAlertsChannelID <guild ID>","completion":"$guildSafetyAlertsChannelID[guild ID]"}
+{"prompt":"ForgeScript: $guildShardID <guild ID>","completion":"$guildShardID[guild ID]"}
+{"prompt":"ForgeScript: $guildSoundboardSounds <guild ID> <property> <separator>","completion":"$guildSoundboardSounds[guild ID;property;separator]"}
+{"prompt":"ForgeScript: $guildSplashURL <guild ID> <size> <extension>","completion":"$guildSplashURL[guild ID;size;extension]"}
+{"prompt":"ForgeScript: $guildStageInstances <guild ID> <property> <separator>","completion":"$guildStageInstances[guild ID;property;separator]"}
+{"prompt":"ForgeScript: $guildStickerIDs <guild ID> <separator>","completion":"$guildStickerIDs[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildStickerLimit <guild ID>","completion":"$guildStickerLimit[guild ID]"}
+{"prompt":"ForgeScript: $guildSystemChannelID <guild ID>","completion":"$guildSystemChannelID[guild ID]"}
+{"prompt":"ForgeScript: $guildTemplateCode <guild ID>","completion":"$guildTemplateCode[guild ID]"}
+{"prompt":"ForgeScript: $guildTimedOutMembers <guild ID> <separator>","completion":"$guildTimedOutMembers[guild ID;separator]"}
+{"prompt":"ForgeScript: $guildVanityCode <guild ID>","completion":"$guildVanityCode[guild ID]"}
+{"prompt":"ForgeScript: $guildVanityUses <guild ID>","completion":"$guildVanityUses[guild ID]"}
+{"prompt":"ForgeScript: $guildVerificationLevel <guild ID>","completion":"$guildVerificationLevel[guild ID]"}
+{"prompt":"ForgeScript: $guildVerified <guild ID>","completion":"$guildVerified[guild ID]"}
+{"prompt":"ForgeScript: $guildWebhooks <guild ID> <property> <separator>","completion":"$guildWebhooks[guild ID;property;separator]"}
+{"prompt":"ForgeScript: $guildWidgetChannelEnabled <guild ID>","completion":"$guildWidgetChannelEnabled[guild ID]"}
+{"prompt":"ForgeScript: $guildWidgetChannelID <guild ID>","completion":"$guildWidgetChannelID[guild ID]"}
+{"prompt":"ForgeScript: $randomGuildID undefined","completion":"$randomGuildID[undefined]"}
+{"prompt":"ForgeScript: $registerGuildApplicationCommands <guild ID>","completion":"$registerGuildApplicationCommands[guild ID]"}
+{"prompt":"ForgeScript: $setGuildAFKChannel <guild ID> <channel ID> <reason>","completion":"$setGuildAFKChannel[guild ID;channel ID;reason]"}
+{"prompt":"ForgeScript: $setGuildAFKTimeout <guild ID> <seconds> <reason>","completion":"$setGuildAFKTimeout[guild ID;seconds;reason]"}
+{"prompt":"ForgeScript: $setGuildBanner <guild ID> <url> <reason>","completion":"$setGuildBanner[guild ID;url;reason]"}
+{"prompt":"ForgeScript: $setGuildBoostProgressBar <guild ID> <enabled> <reason>","completion":"$setGuildBoostProgressBar[guild ID;enabled;reason]"}
+{"prompt":"ForgeScript: $setGuildDefaultMessageNotifications <guild ID> <setting> <reason>","completion":"$setGuildDefaultMessageNotifications[guild ID;setting;reason]"}
+{"prompt":"ForgeScript: $setGuildDiscoverySplash <guild ID> <url> <reason>","completion":"$setGuildDiscoverySplash[guild ID;url;reason]"}
+{"prompt":"ForgeScript: $setGuildExplicitContentFilter <guild ID> <filter> <reason>","completion":"$setGuildExplicitContentFilter[guild ID;filter;reason]"}
+{"prompt":"ForgeScript: $setGuildIcon <guild ID> <url> <reason>","completion":"$setGuildIcon[guild ID;url;reason]"}
+{"prompt":"ForgeScript: $setGuildMFALevel <guild ID> <level> <reason>","completion":"$setGuildMFALevel[guild ID;level;reason]"}
+{"prompt":"ForgeScript: $setGuildName <guild ID> <name> <reason>","completion":"$setGuildName[guild ID;name;reason]"}
+{"prompt":"ForgeScript: $setGuildOwner <guild ID> <user ID> <reason>","completion":"$setGuildOwner[guild ID;user ID;reason]"}
+{"prompt":"ForgeScript: $setGuildPausedInvites <guild ID> <disabled>","completion":"$setGuildPausedInvites[guild ID;disabled]"}
+{"prompt":"ForgeScript: $setGuildPreferredLocale <guild ID> <locale> <reason>","completion":"$setGuildPreferredLocale[guild ID;locale;reason]"}
+{"prompt":"ForgeScript: $setGuildPublicUpdatesChannel <guild ID> <channel ID> <reason>","completion":"$setGuildPublicUpdatesChannel[guild ID;channel ID;reason]"}
+{"prompt":"ForgeScript: $setGuildRulesChannel <guild ID> <channel ID> <reason>","completion":"$setGuildRulesChannel[guild ID;channel ID;reason]"}
+{"prompt":"ForgeScript: $setGuildSafetyAlertsChannel <guild ID> <channel ID> <reason>","completion":"$setGuildSafetyAlertsChannel[guild ID;channel ID;reason]"}
+{"prompt":"ForgeScript: $setGuildSplash <guild ID> <url> <reason>","completion":"$setGuildSplash[guild ID;url;reason]"}
+{"prompt":"ForgeScript: $setGuildSystemChannel <guild ID> <channel ID> <reason>","completion":"$setGuildSystemChannel[guild ID;channel ID;reason]"}
+{"prompt":"ForgeScript: $setGuildVerificationLevel <guild ID> <level> <reason>","completion":"$setGuildVerificationLevel[guild ID;level;reason]"}
+{"prompt":"ForgeScript: $setGuildWidgetSettings <guild ID> <channel ID> <enabled> <reason>","completion":"$setGuildWidgetSettings[guild ID;channel ID;enabled;reason]"}
+{"prompt":"ForgeScript: $syncGuildTemplate <template code>","completion":"$syncGuildTemplate[template code]"}
+{"prompt":"ForgeScript: $httpAddForm undefined","completion":"$httpAddForm[undefined]"}
+{"prompt":"ForgeScript: $httpAddHeader <name> <value>","completion":"$httpAddHeader[name;value]"}
+{"prompt":"ForgeScript: $httpAppendFile <key> <url / path>","completion":"$httpAppendFile[key;url / path]"}
+{"prompt":"ForgeScript: $httpAppendValue <key> <value>","completion":"$httpAppendValue[key;value]"}
+{"prompt":"ForgeScript: $httpGetHeader <name>","completion":"$httpGetHeader[name]"}
+{"prompt":"ForgeScript: $httpPing undefined","completion":"$httpPing[undefined]"}
+{"prompt":"ForgeScript: $httpRemoveHeader <name>","completion":"$httpRemoveHeader[name]"}
+{"prompt":"ForgeScript: $httpRequest <url> <method> <variable>","completion":"$httpRequest[url;method;variable]"}
+{"prompt":"ForgeScript: $httpResult <key>","completion":"$httpResult[key]"}
+{"prompt":"ForgeScript: $httpSetBody <body>","completion":"$httpSetBody[body]"}
+{"prompt":"ForgeScript: $httpSetContentType <type>","completion":"$httpSetContentType[type]"}
+{"prompt":"ForgeScript: $applicationCommandDescription <id>","completion":"$applicationCommandDescription[id]"}
+{"prompt":"ForgeScript: $applicationCommandDisplay <hide option name>","completion":"$applicationCommandDisplay[hide option name]"}
+{"prompt":"ForgeScript: $applicationCommandID <name>","completion":"$applicationCommandID[name]"}
+{"prompt":"ForgeScript: $applicationCommandName <id>","completion":"$applicationCommandName[id]"}
+{"prompt":"ForgeScript: $applicationCommandOptions <id>","completion":"$applicationCommandOptions[id]"}
+{"prompt":"ForgeScript: $applicationSubCommandGroupName undefined","completion":"$applicationSubCommandGroupName[undefined]"}
+{"prompt":"ForgeScript: $applicationSubCommandName undefined","completion":"$applicationSubCommandName[undefined]"}
+{"prompt":"ForgeScript: $authorizingIntegrationOwners <type>","completion":"$authorizingIntegrationOwners[type]"}
+{"prompt":"ForgeScript: $autocomplete undefined","completion":"$autocomplete[undefined]"}
+{"prompt":"ForgeScript: $context undefined","completion":"$context[undefined]"}
+{"prompt":"ForgeScript: $customID undefined","completion":"$customID[undefined]"}
+{"prompt":"ForgeScript: $defer undefined","completion":"$defer[undefined]"}
+{"prompt":"ForgeScript: $deferUpdate undefined","completion":"$deferUpdate[undefined]"}
+{"prompt":"ForgeScript: $ephemeral undefined","completion":"$ephemeral[undefined]"}
+{"prompt":"ForgeScript: $focusedOptionName undefined","completion":"$focusedOptionName[undefined]"}
+{"prompt":"ForgeScript: $focusedOptionValue undefined","completion":"$focusedOptionValue[undefined]"}
+{"prompt":"ForgeScript: $input <custom ID>","completion":"$input[custom ID]"}
+{"prompt":"ForgeScript: $interactionDelete undefined","completion":"$interactionDelete[undefined]"}
+{"prompt":"ForgeScript: $interactionFollowUp <content> <return message ID>","completion":"$interactionFollowUp[content;return message ID]"}
+{"prompt":"ForgeScript: $interactionRawData undefined","completion":"$interactionRawData[undefined]"}
+{"prompt":"ForgeScript: $interactionReply <content> <return message ID>","completion":"$interactionReply[content;return message ID]"}
+{"prompt":"ForgeScript: $interactionRequirePremium undefined","completion":"$interactionRequirePremium[undefined]"}
+{"prompt":"ForgeScript: $interactionUpdate <content>","completion":"$interactionUpdate[content]"}
+{"prompt":"ForgeScript: $isActivityCommand undefined","completion":"$isActivityCommand[undefined]"}
+{"prompt":"ForgeScript: $isAnySelectMenu undefined","completion":"$isAnySelectMenu[undefined]"}
+{"prompt":"ForgeScript: $isAutocomplete undefined","completion":"$isAutocomplete[undefined]"}
+{"prompt":"ForgeScript: $isButton undefined","completion":"$isButton[undefined]"}
+{"prompt":"ForgeScript: $isChannelSelectMenu undefined","completion":"$isChannelSelectMenu[undefined]"}
+{"prompt":"ForgeScript: $isCommand undefined","completion":"$isCommand[undefined]"}
+{"prompt":"ForgeScript: $isContextMenu undefined","completion":"$isContextMenu[undefined]"}
+{"prompt":"ForgeScript: $isMentionableSelectMenu undefined","completion":"$isMentionableSelectMenu[undefined]"}
+{"prompt":"ForgeScript: $isModal undefined","completion":"$isModal[undefined]"}
+{"prompt":"ForgeScript: $isRepliable undefined","completion":"$isRepliable[undefined]"}
+{"prompt":"ForgeScript: $isRoleSelectMenu undefined","completion":"$isRoleSelectMenu[undefined]"}
+{"prompt":"ForgeScript: $isSlashCommand undefined","completion":"$isSlashCommand[undefined]"}
+{"prompt":"ForgeScript: $isStringSelectMenu undefined","completion":"$isStringSelectMenu[undefined]"}
+{"prompt":"ForgeScript: $isUserSelectMenu undefined","completion":"$isUserSelectMenu[undefined]"}
+{"prompt":"ForgeScript: $launchActivity undefined","completion":"$launchActivity[undefined]"}
+{"prompt":"ForgeScript: $locale undefined","completion":"$locale[undefined]"}
+{"prompt":"ForgeScript: $modal <custom ID> <title>","completion":"$modal[custom ID;title]"}
+{"prompt":"ForgeScript: $option <option name>","completion":"$option[option name]"}
+{"prompt":"ForgeScript: $selectMenuValues <index> <separator>","completion":"$selectMenuValues[index;separator]"}
+{"prompt":"ForgeScript: $showModal undefined","completion":"$showModal[undefined]"}
+{"prompt":"ForgeScript: $targetMember <property> <separator>","completion":"$targetMember[property;separator]"}
+{"prompt":"ForgeScript: $targetMessage <property> <separator>","completion":"$targetMessage[property;separator]"}
+{"prompt":"ForgeScript: $targetMessageEmbeds <embed index> <property> <field index>","completion":"$targetMessageEmbeds[embed index;property;field index]"}
+{"prompt":"ForgeScript: $deleteInvite <code> <reason>","completion":"$deleteInvite[code;reason]"}
+{"prompt":"ForgeScript: $getInvite <code> <property>","completion":"$getInvite[code;property]"}
+{"prompt":"ForgeScript: $inviteExists <code>","completion":"$inviteExists[code]"}
+{"prompt":"ForgeScript: $inviterCode <guild ID> <user ID>","completion":"$inviterCode[guild ID;user ID]"}
+{"prompt":"ForgeScript: $inviterID <guild ID> <user ID>","completion":"$inviterID[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isJSON <json>","completion":"$isJSON[json]"}
+{"prompt":"ForgeScript: $jsonDelete <keys>","completion":"$jsonDelete[keys]"}
+{"prompt":"ForgeScript: $jsonEntries <variable>","completion":"$jsonEntries[variable]"}
+{"prompt":"ForgeScript: $jsonHas <variable> <key>","completion":"$jsonHas[variable;key]"}
+{"prompt":"ForgeScript: $jsonKeys <variable>","completion":"$jsonKeys[variable]"}
+{"prompt":"ForgeScript: $jsonLoad <variable> <json>","completion":"$jsonLoad[variable;json]"}
+{"prompt":"ForgeScript: $jsonSet <keys;value>","completion":"$jsonSet[keys;value]"}
+{"prompt":"ForgeScript: $jsonStringify <variable> <space>","completion":"$jsonStringify[variable;space]"}
+{"prompt":"ForgeScript: $jsonValues <variable> <separator>","completion":"$jsonValues[variable;separator]"}
+{"prompt":"ForgeScript: $onlyForCategories <code> <channels>","completion":"$onlyForCategories[code;channels]"}
+{"prompt":"ForgeScript: $onlyForChannels <code> <channels>","completion":"$onlyForChannels[code;channels]"}
+{"prompt":"ForgeScript: $onlyForGuilds <code> <guilds>","completion":"$onlyForGuilds[code;guilds]"}
+{"prompt":"ForgeScript: $onlyForRoles <code> <roles>","completion":"$onlyForRoles[code;roles]"}
+{"prompt":"ForgeScript: $onlyForUsers <code> <users>","completion":"$onlyForUsers[code;users]"}
+{"prompt":"ForgeScript: $onlyIf <condition> <code>","completion":"$onlyIf[condition;code]"}
+{"prompt":"ForgeScript: $stop undefined","completion":"$stop[undefined]"}
+{"prompt":"ForgeScript: $chalkLog <text> <styles>","completion":"$chalkLog[text;styles]"}
+{"prompt":"ForgeScript: $log <message>","completion":"$log[message]"}
+{"prompt":"ForgeScript: $logger <log type> <text>","completion":"$logger[log type;text]"}
+{"prompt":"ForgeScript: $findApplicationEmoji <query>","completion":"$findApplicationEmoji[query]"}
+{"prompt":"ForgeScript: $findChannel <query> <return channel>","completion":"$findChannel[query;return channel]"}
+{"prompt":"ForgeScript: $findChannels <guild ID> <query> <limit> <property> <separator> <method>","completion":"$findChannels[guild ID;query;limit;property;separator;method]"}
+{"prompt":"ForgeScript: $findEmoji <query>","completion":"$findEmoji[query]"}
+{"prompt":"ForgeScript: $findGuild <query> <return guild>","completion":"$findGuild[query;return guild]"}
+{"prompt":"ForgeScript: $findGuildChannel <guild ID> <query> <return channel>","completion":"$findGuildChannel[guild ID;query;return channel]"}
+{"prompt":"ForgeScript: $findGuildEmoji <guild ID> <query>","completion":"$findGuildEmoji[guild ID;query]"}
+{"prompt":"ForgeScript: $findMember <guild ID> <query> <return author>","completion":"$findMember[guild ID;query;return author]"}
+{"prompt":"ForgeScript: $findMembers <guild ID> <query> <limit> <enum value> <separator>","completion":"$findMembers[guild ID;query;limit;enum value;separator]"}
+{"prompt":"ForgeScript: $findRole <guild ID> <query>","completion":"$findRole[guild ID;query]"}
+{"prompt":"ForgeScript: $findRoles <guild ID> <query> <limit> <property> <separator> <method>","completion":"$findRoles[guild ID;query;limit;property;separator;method]"}
+{"prompt":"ForgeScript: $findUser <query> <return author>","completion":"$findUser[query;return author]"}
+{"prompt":"ForgeScript: $abs <number>","completion":"$abs[number]"}
+{"prompt":"ForgeScript: $base <number> <to> <from>","completion":"$base[number;to;from]"}
+{"prompt":"ForgeScript: $bigintDivide <numbers>","completion":"$bigintDivide[numbers]"}
+{"prompt":"ForgeScript: $bigintMulti <numbers>","completion":"$bigintMulti[numbers]"}
+{"prompt":"ForgeScript: $bigintSub <numbers>","completion":"$bigintSub[numbers]"}
+{"prompt":"ForgeScript: $bigintSum <numbers>","completion":"$bigintSum[numbers]"}
+{"prompt":"ForgeScript: $ceil <number>","completion":"$ceil[number]"}
+{"prompt":"ForgeScript: $divide <numbers>","completion":"$divide[numbers]"}
+{"prompt":"ForgeScript: $floor <number>","completion":"$floor[number]"}
+{"prompt":"ForgeScript: $logn <number>","completion":"$logn[number]"}
+{"prompt":"ForgeScript: $math <expr>","completion":"$math[expr]"}
+{"prompt":"ForgeScript: $max <numbers>","completion":"$max[numbers]"}
+{"prompt":"ForgeScript: $min <numbers>","completion":"$min[numbers]"}
+{"prompt":"ForgeScript: $modulo <numbers>","completion":"$modulo[numbers]"}
+{"prompt":"ForgeScript: $multi <numbers>","completion":"$multi[numbers]"}
+{"prompt":"ForgeScript: $pi undefined","completion":"$pi[undefined]"}
+{"prompt":"ForgeScript: $pow <numbers>","completion":"$pow[numbers]"}
+{"prompt":"ForgeScript: $round <number> <decimal places>","completion":"$round[number;decimal places]"}
+{"prompt":"ForgeScript: $sign <number>","completion":"$sign[number]"}
+{"prompt":"ForgeScript: $sqrt <number>","completion":"$sqrt[number]"}
+{"prompt":"ForgeScript: $sub <numbers>","completion":"$sub[numbers]"}
+{"prompt":"ForgeScript: $sum <numbers>","completion":"$sum[numbers]"}
+{"prompt":"ForgeScript: $trunc <number>","completion":"$trunc[number]"}
+{"prompt":"ForgeScript: $ban <guild ID> <user ID> <reason> <delete message seconds>","completion":"$ban[guild ID;user ID;reason;delete message seconds]"}
+{"prompt":"ForgeScript: $fetchMembers <guild ID> <user ID>","completion":"$fetchMembers[guild ID;user ID]"}
+{"prompt":"ForgeScript: $hasAnyPerms <guild ID> <user ID> <perms>","completion":"$hasAnyPerms[guild ID;user ID;perms]"}
+{"prompt":"ForgeScript: $hasAnyRole <guild ID> <user ID> <roles>","completion":"$hasAnyRole[guild ID;user ID;roles]"}
+{"prompt":"ForgeScript: $hasPerms <guild ID> <user ID> <perms>","completion":"$hasPerms[guild ID;user ID;perms]"}
+{"prompt":"ForgeScript: $hasRoles <guild ID> <user ID> <roles>","completion":"$hasRoles[guild ID;user ID;roles]"}
+{"prompt":"ForgeScript: $isBanned <guild ID> <user ID>","completion":"$isBanned[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isBoosting <guild ID> <user ID>","completion":"$isBoosting[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isDeaf <guild ID> <user ID>","completion":"$isDeaf[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isGuildDeaf <guild ID> <user ID>","completion":"$isGuildDeaf[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isGuildMuted <guild ID> <user ID>","completion":"$isGuildMuted[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isMuted <guild ID> <user ID>","completion":"$isMuted[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isSelfDeaf <guild ID> <user ID>","completion":"$isSelfDeaf[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isSelfMuted <guild ID> <user ID>","completion":"$isSelfMuted[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isTimedOut <guild ID> <user ID>","completion":"$isTimedOut[guild ID;user ID]"}
+{"prompt":"ForgeScript: $isVerified <guild ID> <user ID>","completion":"$isVerified[guild ID;user ID]"}
+{"prompt":"ForgeScript: $kickMember <guild ID> <user ID> <reason>","completion":"$kickMember[guild ID;user ID;reason]"}
+{"prompt":"ForgeScript: $memberActivity <guild ID> <user ID> <property> <separator>","completion":"$memberActivity[guild ID;user ID;property;separator]"}
+{"prompt":"ForgeScript: $memberAddRoles <guild ID> <user ID> <roles>","completion":"$memberAddRoles[guild ID;user ID;roles]"}
+{"prompt":"ForgeScript: $memberAvatar <guild ID> <user ID> <size> <extension>","completion":"$memberAvatar[guild ID;user ID;size;extension]"}
+{"prompt":"ForgeScript: $memberAvatarDecoration <guild ID> <user ID>","completion":"$memberAvatarDecoration[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberBanner <guild ID> <user ID> <size> <extension>","completion":"$memberBanner[guild ID;user ID;size;extension]"}
+{"prompt":"ForgeScript: $memberBoostingSince <guild ID> <user ID>","completion":"$memberBoostingSince[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberCustomStatus <guild ID> <user ID> <type>","completion":"$memberCustomStatus[guild ID;user ID;type]"}
+{"prompt":"ForgeScript: $memberDisplayColor <guild ID> <user ID>","completion":"$memberDisplayColor[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberDisplayName <guild ID> <user ID>","completion":"$memberDisplayName[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberExists <guild ID> <member ID>","completion":"$memberExists[guild ID;member ID]"}
+{"prompt":"ForgeScript: $memberFlags <guild ID> <user ID> <separator>","completion":"$memberFlags[guild ID;user ID;separator]"}
+{"prompt":"ForgeScript: $memberHighestRoleID <guild ID> <user ID>","completion":"$memberHighestRoleID[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberJoinPosition <guild ID> <user ID>","completion":"$memberJoinPosition[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberJoinedAt <guild ID> <user ID>","completion":"$memberJoinedAt[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberLowestRoleID <guild ID> <user ID>","completion":"$memberLowestRoleID[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberPerms <guild ID> <user ID> <separator>","completion":"$memberPerms[guild ID;user ID;separator]"}
+{"prompt":"ForgeScript: $memberRawData <guild ID> <user ID>","completion":"$memberRawData[guild ID;user ID]"}
+{"prompt":"ForgeScript: $memberRemoveRoles <guild ID> <user ID> <roles>","completion":"$memberRemoveRoles[guild ID;user ID;roles]"}
+{"prompt":"ForgeScript: $memberRoles <guild ID> <user ID> <separator>","completion":"$memberRoles[guild ID;user ID;separator]"}
+{"prompt":"ForgeScript: $memberSetNickname <guild ID> <user ID> <nickname>","completion":"$memberSetNickname[guild ID;user ID;nickname]"}
+{"prompt":"ForgeScript: $memberSetRoles <guild ID> <user ID> <roles>","completion":"$memberSetRoles[guild ID;user ID;roles]"}
+{"prompt":"ForgeScript: $memberTimeoutDuration <guild ID> <user ID>","completion":"$memberTimeoutDuration[guild ID;user ID]"}
+{"prompt":"ForgeScript: $nickname <guild ID> <user ID>","completion":"$nickname[guild ID;user ID]"}
+{"prompt":"ForgeScript: $platform <guild ID> <user ID> <separator>","completion":"$platform[guild ID;user ID;separator]"}
+{"prompt":"ForgeScript: $pruneMembers <guild ID> <days> <dry> <reason> <roles>","completion":"$pruneMembers[guild ID;days;dry;reason;roles]"}
+{"prompt":"ForgeScript: $randomMemberID <guild ID>","completion":"$randomMemberID[guild ID]"}
+{"prompt":"ForgeScript: $status <guild ID> <user ID>","completion":"$status[guild ID;user ID]"}
+{"prompt":"ForgeScript: $timeout <guild ID> <user ID> <duration> <reason>","completion":"$timeout[guild ID;user ID;duration;reason]"}
+{"prompt":"ForgeScript: $unban <guild ID> <user ID> <reason>","completion":"$unban[guild ID;user ID;reason]"}
+{"prompt":"ForgeScript: $voiceID <guild ID> <user ID>","completion":"$voiceID[guild ID;user ID]"}
+{"prompt":"ForgeScript: $voiceKick <guild ID> <user ID> <reason>","completion":"$voiceKick[guild ID;user ID;reason]"}
+{"prompt":"ForgeScript: $voiceMove <guild ID> <user ID> <channel ID> <reason>","completion":"$voiceMove[guild ID;user ID;channel ID;reason]"}
+{"prompt":"ForgeScript: $disableAllMentions undefined","completion":"$disableAllMentions[undefined]"}
+{"prompt":"ForgeScript: $disableEveryoneMention undefined","completion":"$disableEveryoneMention[undefined]"}
+{"prompt":"ForgeScript: $disableRoleMentions undefined","completion":"$disableRoleMentions[undefined]"}
+{"prompt":"ForgeScript: $disableUserMentions undefined","completion":"$disableUserMentions[undefined]"}
+{"prompt":"ForgeScript: $enableRoleMentions <guild ID> <roles>","completion":"$enableRoleMentions[guild ID;roles]"}
+{"prompt":"ForgeScript: $enableUserMentions <users>","completion":"$enableUserMentions[users]"}
+{"prompt":"ForgeScript: $isChannelMentioned <channel ID> <message ID> <channel ID>","completion":"$isChannelMentioned[channel ID;message ID;channel ID]"}
+{"prompt":"ForgeScript: $isRoleMentioned <channel ID> <message ID> <role ID>","completion":"$isRoleMentioned[channel ID;message ID;role ID]"}
+{"prompt":"ForgeScript: $isUserMentioned <channel ID> <message ID> <user ID>","completion":"$isUserMentioned[channel ID;message ID;user ID]"}
+{"prompt":"ForgeScript: $mentioned <index> <return author>","completion":"$mentioned[index;return author]"}
+{"prompt":"ForgeScript: $mentionedChannelCount undefined","completion":"$mentionedChannelCount[undefined]"}
+{"prompt":"ForgeScript: $mentionedChannels <index> <return channel>","completion":"$mentionedChannels[index;return channel]"}
+{"prompt":"ForgeScript: $mentionedRoleCount undefined","completion":"$mentionedRoleCount[undefined]"}
+{"prompt":"ForgeScript: $mentionedRoles <index>","completion":"$mentionedRoles[index]"}
+{"prompt":"ForgeScript: $mentionedUserCount undefined","completion":"$mentionedUserCount[undefined]"}
+{"prompt":"ForgeScript: $nomention undefined","completion":"$nomention[undefined]"}
+{"prompt":"ForgeScript: $addMessageReactions <channel ID> <message ID> <emojis>","completion":"$addMessageReactions[channel ID;message ID;emojis]"}
+{"prompt":"ForgeScript: $attachment <path> <name> <as text> <encoding> <description>","completion":"$attachment[path;name;as text;encoding;description]"}
+{"prompt":"ForgeScript: $deleteAllMessageReactions <channel ID> <message ID>","completion":"$deleteAllMessageReactions[channel ID;message ID]"}
+{"prompt":"ForgeScript: $deleteIn <duration>","completion":"$deleteIn[duration]"}
+{"prompt":"ForgeScript: $deleteMessage <channel ID> <messages>","completion":"$deleteMessage[channel ID;messages]"}
+{"prompt":"ForgeScript: $deleteUserMessageReaction <channel ID> <message ID> <emoji> <user ID>","completion":"$deleteUserMessageReaction[channel ID;message ID;emoji;user ID]"}
+{"prompt":"ForgeScript: $editMessage <channel ID> <message ID> <content>","completion":"$editMessage[channel ID;message ID;content]"}
+{"prompt":"ForgeScript: $fetchComponents <channel ID> <message ID>","completion":"$fetchComponents[channel ID;message ID]"}
+{"prompt":"ForgeScript: $fetchEmbeds <channel ID> <message ID> <index>","completion":"$fetchEmbeds[channel ID;message ID;index]"}
+{"prompt":"ForgeScript: $fetchMessage <channel ID> <message ID>","completion":"$fetchMessage[channel ID;message ID]"}
+{"prompt":"ForgeScript: $fetchResponse <channel ID> <message ID>","completion":"$fetchResponse[channel ID;message ID]"}
+{"prompt":"ForgeScript: $forwardMessage <channel ID> <message ID> <channel ID>","completion":"$forwardMessage[channel ID;message ID;channel ID]"}
+{"prompt":"ForgeScript: $getComponents <channel ID> <message ID> <row index> <component index> <property> <separator>","completion":"$getComponents[channel ID;message ID;row index;component index;property;separator]"}
+{"prompt":"ForgeScript: $getEmbeds <channel ID> <message ID> <embed index> <property> <field index>","completion":"$getEmbeds[channel ID;message ID;embed index;property;field index]"}
+{"prompt":"ForgeScript: $getMessage <channel ID> <message ID> <property> <separator>","completion":"$getMessage[channel ID;message ID;property;separator]"}
+{"prompt":"ForgeScript: $getMessageReactionCount <channel ID> <message ID> <emoji> <type>","completion":"$getMessageReactionCount[channel ID;message ID;emoji;type]"}
+{"prompt":"ForgeScript: $getMessageReactionUsers <channel ID> <message ID> <emoji> <separator>","completion":"$getMessageReactionUsers[channel ID;message ID;emoji;separator]"}
+{"prompt":"ForgeScript: $getMessageReactions <channel ID> <message ID> <property> <separator>","completion":"$getMessageReactions[channel ID;message ID;property;separator]"}
+{"prompt":"ForgeScript: $getSnapshots <channel ID> <message ID> <index> <property> <separator>","completion":"$getSnapshots[channel ID;message ID;index;property;separator]"}
+{"prompt":"ForgeScript: $hasEmbeds <channel ID> <message ID>","completion":"$hasEmbeds[channel ID;message ID]"}
+{"prompt":"ForgeScript: $isPinned <channel ID> <message ID>","completion":"$isPinned[channel ID;message ID]"}
+{"prompt":"ForgeScript: $loadComponents <component data>","completion":"$loadComponents[component data]"}
+{"prompt":"ForgeScript: $loadEmbeds <embed data>","completion":"$loadEmbeds[embed data]"}
+{"prompt":"ForgeScript: $message <index> <end index>","completion":"$message[index;end index]"}
+{"prompt":"ForgeScript: $messageAttachment <channel ID> <message ID> <index>","completion":"$messageAttachment[channel ID;message ID;index]"}
+{"prompt":"ForgeScript: $messageAttachmentCount <channel ID> <message ID>","completion":"$messageAttachmentCount[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageAttachmentFlags <channel ID> <message ID> <index> <separator>","completion":"$messageAttachmentFlags[channel ID;message ID;index;separator]"}
+{"prompt":"ForgeScript: $messageAttachments <channel ID> <message ID> <separator>","completion":"$messageAttachments[channel ID;message ID;separator]"}
+{"prompt":"ForgeScript: $messageContent undefined","completion":"$messageContent[undefined]"}
+{"prompt":"ForgeScript: $messageCreatedAt <channel ID> <message ID>","completion":"$messageCreatedAt[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageEditedAt <channel ID> <message ID>","completion":"$messageEditedAt[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageEmojis <channel ID> <message ID> <separator> <return ids>","completion":"$messageEmojis[channel ID;message ID;separator;return ids]"}
+{"prompt":"ForgeScript: $messageExists <channel ID> <message ID>","completion":"$messageExists[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageFlags <channel ID> <message ID> <separator>","completion":"$messageFlags[channel ID;message ID;separator]"}
+{"prompt":"ForgeScript: $messageID undefined","completion":"$messageID[undefined]"}
+{"prompt":"ForgeScript: $messageLink <channel ID> <message ID>","completion":"$messageLink[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageRawData <channel ID> <message ID>","completion":"$messageRawData[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageReferenceID <channel ID> <message ID>","completion":"$messageReferenceID[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageSlice <start> <end>","completion":"$messageSlice[start;end]"}
+{"prompt":"ForgeScript: $messageSticker <channel ID> <message ID> <index>","completion":"$messageSticker[channel ID;message ID;index]"}
+{"prompt":"ForgeScript: $messageStickerCount <channel ID> <message ID>","completion":"$messageStickerCount[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageStickers <channel ID> <message ID> <separator> <type>","completion":"$messageStickers[channel ID;message ID;separator;type]"}
+{"prompt":"ForgeScript: $messageType <channel ID> <message ID>","completion":"$messageType[channel ID;message ID]"}
+{"prompt":"ForgeScript: $messageWebhookID <channel ID> <message ID>","completion":"$messageWebhookID[channel ID;message ID]"}
+{"prompt":"ForgeScript: $noMentionMessage <index> <end index>","completion":"$noMentionMessage[index;end index]"}
+{"prompt":"ForgeScript: $pinMessage <channel ID> <message ID>","completion":"$pinMessage[channel ID;message ID]"}
+{"prompt":"ForgeScript: $publishMessage <channel ID> <message ID>","completion":"$publishMessage[channel ID;message ID]"}
+{"prompt":"ForgeScript: $reply <channel ID> <message ID> <disable ping>","completion":"$reply[channel ID;message ID;disable ping]"}
+{"prompt":"ForgeScript: $sticker <sticker ID>","completion":"$sticker[sticker ID]"}
+{"prompt":"ForgeScript: $suppressEmbeds <channel ID> <message ID>","completion":"$suppressEmbeds[channel ID;message ID]"}
+{"prompt":"ForgeScript: $tts undefined","completion":"$tts[undefined]"}
+{"prompt":"ForgeScript: $unpinMessage <channel ID> <message ID>","completion":"$unpinMessage[channel ID;message ID]"}
+{"prompt":"ForgeScript: $unsuppressEmbeds <channel ID> <message ID>","completion":"$unsuppressEmbeds[channel ID;message ID]"}
+{"prompt":"ForgeScript: $abbreviateNumber <number>","completion":"$abbreviateNumber[number]"}
+{"prompt":"ForgeScript: $average <separator> <values>","completion":"$average[separator;values]"}
+{"prompt":"ForgeScript: $hexToInt <hex>","completion":"$hexToInt[hex]"}
+{"prompt":"ForgeScript: $inRange <number> <min> <max>","completion":"$inRange[number;min;max]"}
+{"prompt":"ForgeScript: $intToHex <int>","completion":"$intToHex[int]"}
+{"prompt":"ForgeScript: $isFloat <number>","completion":"$isFloat[number]"}
+{"prompt":"ForgeScript: $isInteger <number>","completion":"$isInteger[number]"}
+{"prompt":"ForgeScript: $isNumber <number>","completion":"$isNumber[number]"}
+{"prompt":"ForgeScript: $maxSafeInteger undefined","completion":"$maxSafeInteger[undefined]"}
+{"prompt":"ForgeScript: $minSafeInteger undefined","completion":"$minSafeInteger[undefined]"}
+{"prompt":"ForgeScript: $ordinal <number>","completion":"$ordinal[number]"}
+{"prompt":"ForgeScript: $parseInt <value> <radix>","completion":"$parseInt[value;radix]"}
+{"prompt":"ForgeScript: $randomNumber <min> <max> <decimals>","completion":"$randomNumber[min;max;decimals]"}
+{"prompt":"ForgeScript: $separateBigint <number> <separator>","completion":"$separateBigint[number;separator]"}
+{"prompt":"ForgeScript: $separateNumber <number> <separator>","completion":"$separateNumber[number;separator]"}
+{"prompt":"ForgeScript: $advancedBar <current> <max> <length> <values>","completion":"$advancedBar[current;max;length;values]"}
+{"prompt":"ForgeScript: $awaitComponent <channel ID> <message ID> <filter> <success code> <time>","completion":"$awaitComponent[channel ID;message ID;filter;success code;time]"}
+{"prompt":"ForgeScript: $awaitMessage <channel ID> <variable name> <filter> <time>","completion":"$awaitMessage[channel ID;variable name;filter;time]"}
+{"prompt":"ForgeScript: $awaitModalSubmit <custom ID> <success code> <time>","completion":"$awaitModalSubmit[custom ID;success code;time]"}
+{"prompt":"ForgeScript: $bar <current> <max> <length> <fill> <empty> <trunc> <fillStart> <fillEnd> <emptyStart> <emptyEnd>","completion":"$bar[current;max;length;fill;empty;trunc;fillStart;fillEnd;emptyStart;emptyEnd]"}
+{"prompt":"ForgeScript: $c <comment>","completion":"$c[comment]"}
+{"prompt":"ForgeScript: $callFunction <name> <args>","completion":"$callFunction[name;args]"}
+{"prompt":"ForgeScript: $callLocalFunction <name> <args>","completion":"$callLocalFunction[name;args]"}
+{"prompt":"ForgeScript: $debug undefined","completion":"$debug[undefined]"}
+{"prompt":"ForgeScript: $disableConsoleErrors undefined","completion":"$disableConsoleErrors[undefined]"}
+{"prompt":"ForgeScript: $djsVersion undefined","completion":"$djsVersion[undefined]"}
+{"prompt":"ForgeScript: $enableConsoleErrors undefined","completion":"$enableConsoleErrors[undefined]"}
+{"prompt":"ForgeScript: $error undefined","completion":"$error[undefined]"}
+{"prompt":"ForgeScript: $escapeCode <code>","completion":"$escapeCode[code]"}
+{"prompt":"ForgeScript: $localFunction <name> <code> <params>","completion":"$localFunction[name;code;params]"}
+{"prompt":"ForgeScript: $typeof <argument>","completion":"$typeof[argument]"}
+{"prompt":"ForgeScript: $poll <question> <duration> <multiselect> <layout>","completion":"$poll[question;duration;multiselect;layout]"}
+{"prompt":"ForgeScript: $pollAnswer <text> <emoji>","completion":"$pollAnswer[text;emoji]"}
+{"prompt":"ForgeScript: $pollAnswerEmoji undefined","completion":"$pollAnswerEmoji[undefined]"}
+{"prompt":"ForgeScript: $pollAnswerID undefined","completion":"$pollAnswerID[undefined]"}
+{"prompt":"ForgeScript: $pollAnswerMessageID undefined","completion":"$pollAnswerMessageID[undefined]"}
+{"prompt":"ForgeScript: $pollAnswerText undefined","completion":"$pollAnswerText[undefined]"}
+{"prompt":"ForgeScript: $pollAnswerVoteCount undefined","completion":"$pollAnswerVoteCount[undefined]"}
+{"prompt":"ForgeScript: $pollAnswerVoterIDs <separator>","completion":"$pollAnswerVoterIDs[separator]"}
+{"prompt":"ForgeScript: $pollAnswers <text;emoji>","completion":"$pollAnswers[text;emoji]"}
+{"prompt":"ForgeScript: $pollEnd <channel ID> <message ID>","completion":"$pollEnd[channel ID;message ID]"}
+{"prompt":"ForgeScript: $reactionAuthorID undefined","completion":"$reactionAuthorID[undefined]"}
+{"prompt":"ForgeScript: $reactionCount undefined","completion":"$reactionCount[undefined]"}
+{"prompt":"ForgeScript: $reactionEmoji undefined","completion":"$reactionEmoji[undefined]"}
+{"prompt":"ForgeScript: $reactionEmojiID undefined","completion":"$reactionEmojiID[undefined]"}
+{"prompt":"ForgeScript: $reactionMessageID undefined","completion":"$reactionMessageID[undefined]"}
+{"prompt":"ForgeScript: $addRole <guild ID> <name> <color> <icon> <hoisted> <mentionable> <position> <perms>","completion":"$addRole[guild ID;name;color;icon;hoisted;mentionable;position;perms]"}
+{"prompt":"ForgeScript: $cloneRole <guild ID> <role ID> <name>","completion":"$cloneRole[guild ID;role ID;name]"}
+{"prompt":"ForgeScript: $deleteRoles <guild ID> <roles>","completion":"$deleteRoles[guild ID;roles]"}
+{"prompt":"ForgeScript: $editRole <guild ID> <role ID> <role name> <role color> <role icon> <hoisted> <mentionable> <perms>","completion":"$editRole[guild ID;role ID;role name;role color;role icon;hoisted;mentionable;perms]"}
+{"prompt":"ForgeScript: $editRoleIcon <guild ID> <role ID> <icon>","completion":"$editRoleIcon[guild ID;role ID;icon]"}
+{"prompt":"ForgeScript: $editRoleName <guild ID> <role ID> <name>","completion":"$editRoleName[guild ID;role ID;name]"}
+{"prompt":"ForgeScript: $editRolePerms <guild ID> <role ID> <perms>","completion":"$editRolePerms[guild ID;role ID;perms]"}
+{"prompt":"ForgeScript: $editRolePosition <guild ID> <role ID> <position>","completion":"$editRolePosition[guild ID;role ID;position]"}
+{"prompt":"ForgeScript: $editRoleUnicodeEmoji <guild ID> <role ID> <emoji>","completion":"$editRoleUnicodeEmoji[guild ID;role ID;emoji]"}
+{"prompt":"ForgeScript: $fetchRoles <guild ID> <role ID>","completion":"$fetchRoles[guild ID;role ID]"}
+{"prompt":"ForgeScript: $randomRoleID <guild ID>","completion":"$randomRoleID[guild ID]"}
+{"prompt":"ForgeScript: $roleColor <guild ID> <role ID>","completion":"$roleColor[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleCount undefined","completion":"$roleCount[undefined]"}
+{"prompt":"ForgeScript: $roleCreatedAt <guild ID> <role ID>","completion":"$roleCreatedAt[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleEditable <guild ID> <role ID>","completion":"$roleEditable[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleExists <guild ID> <role ID>","completion":"$roleExists[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleFlags <guild ID> <role ID> <separator>","completion":"$roleFlags[guild ID;role ID;separator]"}
+{"prompt":"ForgeScript: $roleHoisted <guild ID> <role ID>","completion":"$roleHoisted[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleID <guild ID> <name>","completion":"$roleID[guild ID;name]"}
+{"prompt":"ForgeScript: $roleIDs <guild ID> <separator>","completion":"$roleIDs[guild ID;separator]"}
+{"prompt":"ForgeScript: $roleIcon <guild ID> <role ID> <size> <extension>","completion":"$roleIcon[guild ID;role ID;size;extension]"}
+{"prompt":"ForgeScript: $roleIntColor <guild ID> <role ID>","completion":"$roleIntColor[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleManageable <guild ID> <role ID>","completion":"$roleManageable[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleMembers <guild ID> <role ID> <separator>","completion":"$roleMembers[guild ID;role ID;separator]"}
+{"prompt":"ForgeScript: $roleMentionable <guild ID> <role ID>","completion":"$roleMentionable[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleName <guild ID> <role ID>","completion":"$roleName[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleNames <guild ID> <separator>","completion":"$roleNames[guild ID;separator]"}
+{"prompt":"ForgeScript: $rolePerms <guild ID> <role ID> <separator>","completion":"$rolePerms[guild ID;role ID;separator]"}
+{"prompt":"ForgeScript: $rolePosition <guild ID> <role ID> <asc order>","completion":"$rolePosition[guild ID;role ID;asc order]"}
+{"prompt":"ForgeScript: $roleRawData <guild ID> <role ID>","completion":"$roleRawData[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleRawPosition <guild ID> <role ID>","completion":"$roleRawPosition[guild ID;role ID]"}
+{"prompt":"ForgeScript: $roleTags <guild ID> <role ID> <separator>","completion":"$roleTags[guild ID;role ID;separator]"}
+{"prompt":"ForgeScript: $roleUnicodeEmoji <guild ID> <role ID>","completion":"$roleUnicodeEmoji[guild ID;role ID]"}
+{"prompt":"ForgeScript: $createSoundboardSound <guild ID> <name> <file> <emoji> <volume> <reason>","completion":"$createSoundboardSound[guild ID;name;file;emoji;volume;reason]"}
+{"prompt":"ForgeScript: $deleteSoundboardSounds <guild ID> <sounds>","completion":"$deleteSoundboardSounds[guild ID;sounds]"}
+{"prompt":"ForgeScript: $editSoundboardSound <guild ID> <sound ID> <name> <emoji> <volume> <reason>","completion":"$editSoundboardSound[guild ID;sound ID;name;emoji;volume;reason]"}
+{"prompt":"ForgeScript: $getSoundboardSound <guild ID> <sound ID> <property>","completion":"$getSoundboardSound[guild ID;sound ID;property]"}
+{"prompt":"ForgeScript: $soundAvailable <guild ID> <sound ID>","completion":"$soundAvailable[guild ID;sound ID]"}
+{"prompt":"ForgeScript: $soundCreatedAt <guild ID> <sound ID>","completion":"$soundCreatedAt[guild ID;sound ID]"}
+{"prompt":"ForgeScript: $soundEmoji <guild ID> <sound ID>","completion":"$soundEmoji[guild ID;sound ID]"}
+{"prompt":"ForgeScript: $soundGuildID undefined","completion":"$soundGuildID[undefined]"}
+{"prompt":"ForgeScript: $soundID <guild ID> <name>","completion":"$soundID[guild ID;name]"}
+{"prompt":"ForgeScript: $soundName <guild ID> <sound ID>","completion":"$soundName[guild ID;sound ID]"}
+{"prompt":"ForgeScript: $soundURL <guild ID> <sound ID>","completion":"$soundURL[guild ID;sound ID]"}
+{"prompt":"ForgeScript: $soundUserID <guild ID> <sound ID>","completion":"$soundUserID[guild ID;sound ID]"}
+{"prompt":"ForgeScript: $soundVolume <guild ID> <sound ID>","completion":"$soundVolume[guild ID;sound ID]"}
+{"prompt":"ForgeScript: $auditLog <property> <separator>","completion":"$auditLog[property;separator]"}
+{"prompt":"ForgeScript: $bulk <property> <separator>","completion":"$bulk[property;separator]"}
+{"prompt":"ForgeScript: $effect <property>","completion":"$effect[property]"}
+{"prompt":"ForgeScript: $newAutomodRule <property> <separator>","completion":"$newAutomodRule[property;separator]"}
+{"prompt":"ForgeScript: $newChannel <property> <separator>","completion":"$newChannel[property;separator]"}
+{"prompt":"ForgeScript: $newEmoji <property> <separator>","completion":"$newEmoji[property;separator]"}
+{"prompt":"ForgeScript: $newEntitlement <property> <separator>","completion":"$newEntitlement[property;separator]"}
+{"prompt":"ForgeScript: $newGuild <property> <separator>","completion":"$newGuild[property;separator]"}
+{"prompt":"ForgeScript: $newInvite <property> <separator>","completion":"$newInvite[property;separator]"}
+{"prompt":"ForgeScript: $newMember <property> <separator>","completion":"$newMember[property;separator]"}
+{"prompt":"ForgeScript: $newMessage <property> <separator>","completion":"$newMessage[property;separator]"}
+{"prompt":"ForgeScript: $newPresence <property> <separator>","completion":"$newPresence[property;separator]"}
+{"prompt":"ForgeScript: $newRole <property> <separator>","completion":"$newRole[property;separator]"}
+{"prompt":"ForgeScript: $newScheduledEvent <property> <separator>","completion":"$newScheduledEvent[property;separator]"}
+{"prompt":"ForgeScript: $newSound <property> <separator>","completion":"$newSound[property;separator]"}
+{"prompt":"ForgeScript: $newStage <property> <separator>","completion":"$newStage[property;separator]"}
+{"prompt":"ForgeScript: $newState <property> <separator>","completion":"$newState[property;separator]"}
+{"prompt":"ForgeScript: $newSticker <property> <separator>","completion":"$newSticker[property;separator]"}
+{"prompt":"ForgeScript: $newUser <property> <separator>","completion":"$newUser[property;separator]"}
+{"prompt":"ForgeScript: $oldAutomodRule <property> <separator>","completion":"$oldAutomodRule[property;separator]"}
+{"prompt":"ForgeScript: $oldChannel <property> <separator>","completion":"$oldChannel[property;separator]"}
+{"prompt":"ForgeScript: $oldEmoji <property> <separator>","completion":"$oldEmoji[property;separator]"}
+{"prompt":"ForgeScript: $oldEntitlement <property> <separator>","completion":"$oldEntitlement[property;separator]"}
+{"prompt":"ForgeScript: $oldGuild <property> <separator>","completion":"$oldGuild[property;separator]"}
+{"prompt":"ForgeScript: $oldInvite <property> <separator>","completion":"$oldInvite[property;separator]"}
+{"prompt":"ForgeScript: $oldMember <property> <separator>","completion":"$oldMember[property;separator]"}
+{"prompt":"ForgeScript: $oldMessage <property> <separator>","completion":"$oldMessage[property;separator]"}
+{"prompt":"ForgeScript: $oldPresence <property> <separator>","completion":"$oldPresence[property;separator]"}
+{"prompt":"ForgeScript: $oldRole <property> <separator>","completion":"$oldRole[property;separator]"}
+{"prompt":"ForgeScript: $oldScheduledEvent <property> <separator>","completion":"$oldScheduledEvent[property;separator]"}
+{"prompt":"ForgeScript: $oldSound <property> <separator>","completion":"$oldSound[property;separator]"}
+{"prompt":"ForgeScript: $oldStage <property> <separator>","completion":"$oldStage[property;separator]"}
+{"prompt":"ForgeScript: $oldState <property> <separator>","completion":"$oldState[property;separator]"}
+{"prompt":"ForgeScript: $oldSticker <property> <separator>","completion":"$oldSticker[property;separator]"}
+{"prompt":"ForgeScript: $oldUser <property> <separator>","completion":"$oldUser[property;separator]"}
+{"prompt":"ForgeScript: $async <code>","completion":"$async[code]"}
+{"prompt":"ForgeScript: $break undefined","completion":"$break[undefined]"}
+{"prompt":"ForgeScript: $case <value> <code>","completion":"$case[value;code]"}
+{"prompt":"ForgeScript: $continue undefined","completion":"$continue[undefined]"}
+{"prompt":"ForgeScript: $default <left hand> <right hand>","completion":"$default[left hand;right hand]"}
+{"prompt":"ForgeScript: $else <else>","completion":"$else[else]"}
+{"prompt":"ForgeScript: $elseIf <condition> <if true>","completion":"$elseIf[condition;if true]"}
+{"prompt":"ForgeScript: $if <condition> <if true> <if false>","completion":"$if[condition;if true;if false]"}
+{"prompt":"ForgeScript: $ifx <block>","completion":"$ifx[block]"}
+{"prompt":"ForgeScript: $loop <times> <code> <variable> <desc>","completion":"$loop[times;code;variable;desc]"}
+{"prompt":"ForgeScript: $return <value>","completion":"$return[value]"}
+{"prompt":"ForgeScript: $scope <code> <sync vars>","completion":"$scope[code;sync vars]"}
+{"prompt":"ForgeScript: $switch <value> <cases>","completion":"$switch[value;cases]"}
+{"prompt":"ForgeScript: $try <code> <catch code> <variable>","completion":"$try[code;catch code;variable]"}
+{"prompt":"ForgeScript: $while <condition> <code>","completion":"$while[condition;code]"}
+{"prompt":"ForgeScript: $addSticker <guild ID> <url> <name> <tags> <description>","completion":"$addSticker[guild ID;url;name;tags;description]"}
+{"prompt":"ForgeScript: $deleteStickers <guild ID> <stickers>","completion":"$deleteStickers[guild ID;stickers]"}
+{"prompt":"ForgeScript: $editSticker <sticker ID> <name> <description> <tags>","completion":"$editSticker[sticker ID;name;description;tags]"}
+{"prompt":"ForgeScript: $setStickerDescription <sticker ID> <description>","completion":"$setStickerDescription[sticker ID;description]"}
+{"prompt":"ForgeScript: $setStickerName <sticker ID> <name>","completion":"$setStickerName[sticker ID;name]"}
+{"prompt":"ForgeScript: $setStickerTags <sticker ID> <tags>","completion":"$setStickerTags[sticker ID;tags]"}
+{"prompt":"ForgeScript: $stickerAvailable <sticker ID>","completion":"$stickerAvailable[sticker ID]"}
+{"prompt":"ForgeScript: $stickerCreatedAt <sticker ID>","completion":"$stickerCreatedAt[sticker ID]"}
+{"prompt":"ForgeScript: $stickerDescription <sticker ID>","completion":"$stickerDescription[sticker ID]"}
+{"prompt":"ForgeScript: $stickerFormat <sticker ID>","completion":"$stickerFormat[sticker ID]"}
+{"prompt":"ForgeScript: $stickerGuildID <sticker ID>","completion":"$stickerGuildID[sticker ID]"}
+{"prompt":"ForgeScript: $stickerID undefined","completion":"$stickerID[undefined]"}
+{"prompt":"ForgeScript: $stickerName <sticker ID>","completion":"$stickerName[sticker ID]"}
+{"prompt":"ForgeScript: $stickerOwnerID <sticker ID>","completion":"$stickerOwnerID[sticker ID]"}
+{"prompt":"ForgeScript: $stickerPackID <sticker ID>","completion":"$stickerPackID[sticker ID]"}
+{"prompt":"ForgeScript: $stickerRawData <sticker ID>","completion":"$stickerRawData[sticker ID]"}
+{"prompt":"ForgeScript: $stickerSortValue <sticker ID>","completion":"$stickerSortValue[sticker ID]"}
+{"prompt":"ForgeScript: $stickerTags <sticker ID>","completion":"$stickerTags[sticker ID]"}
+{"prompt":"ForgeScript: $stickerType <sticker ID>","completion":"$stickerType[sticker ID]"}
+{"prompt":"ForgeScript: $stickerURL <sticker ID>","completion":"$stickerURL[sticker ID]"}
+{"prompt":"ForgeScript: $advancedReplace <text> <match;replacement>","completion":"$advancedReplace[text;match;replacement]"}
+{"prompt":"ForgeScript: $argCount <text>","completion":"$argCount[text]"}
+{"prompt":"ForgeScript: $charCodeAt <message> <index>","completion":"$charCodeAt[message;index]"}
+{"prompt":"ForgeScript: $charCount <text> <char>","completion":"$charCount[text;char]"}
+{"prompt":"ForgeScript: $checkContains <text> <matches>","completion":"$checkContains[text;matches]"}
+{"prompt":"ForgeScript: $cropArgs <args> <start index> <end index>","completion":"$cropArgs[args;start index;end index]"}
+{"prompt":"ForgeScript: $cropText <text> <start index> <end index> <ending>","completion":"$cropText[text;start index;end index;ending]"}
+{"prompt":"ForgeScript: $endsWith <string> <values>","completion":"$endsWith[string;values]"}
+{"prompt":"ForgeScript: $fromCharCode <codes>","completion":"$fromCharCode[codes]"}
+{"prompt":"ForgeScript: $padEnd <message> <max length> <filler>","completion":"$padEnd[message;max length;filler]"}
+{"prompt":"ForgeScript: $padStart <message> <max length> <filler>","completion":"$padStart[message;max length;filler]"}
+{"prompt":"ForgeScript: $randomString <length> <characters>","completion":"$randomString[length;characters]"}
+{"prompt":"ForgeScript: $randomText <texts>","completion":"$randomText[texts]"}
+{"prompt":"ForgeScript: $randomUUID undefined","completion":"$randomUUID[undefined]"}
+{"prompt":"ForgeScript: $repeat <text> <amount>","completion":"$repeat[text;amount]"}
+{"prompt":"ForgeScript: $replace <text> <match> <new value> <amount>","completion":"$replace[text;match;new value;amount]"}
+{"prompt":"ForgeScript: $replaceRegex <text> <match> <flags> <new value> <amount>","completion":"$replaceRegex[text;match;flags;new value;amount]"}
+{"prompt":"ForgeScript: $reverseText <string>","completion":"$reverseText[string]"}
+{"prompt":"ForgeScript: $sliceText <text> <start> <end>","completion":"$sliceText[text;start;end]"}
+{"prompt":"ForgeScript: $snowflake undefined","completion":"$snowflake[undefined]"}
+{"prompt":"ForgeScript: $startsWith <string> <values>","completion":"$startsWith[string;values]"}
+{"prompt":"ForgeScript: $toCamelCase <message>","completion":"$toCamelCase[message]"}
+{"prompt":"ForgeScript: $toKebabCase <message>","completion":"$toKebabCase[message]"}
+{"prompt":"ForgeScript: $toLowerCase <string>","completion":"$toLowerCase[string]"}
+{"prompt":"ForgeScript: $toSnakeCase <message>","completion":"$toSnakeCase[message]"}
+{"prompt":"ForgeScript: $toTitleCase <message>","completion":"$toTitleCase[message]"}
+{"prompt":"ForgeScript: $toUpperCase <string>","completion":"$toUpperCase[string]"}
+{"prompt":"ForgeScript: $trim <text>","completion":"$trim[text]"}
+{"prompt":"ForgeScript: $trimEnd <text>","completion":"$trimEnd[text]"}
+{"prompt":"ForgeScript: $trimLines <text>","completion":"$trimLines[text]"}
+{"prompt":"ForgeScript: $trimStart <text>","completion":"$trimStart[text]"}
+{"prompt":"ForgeScript: $cpu undefined","completion":"$cpu[undefined]"}
+{"prompt":"ForgeScript: $cpuArch undefined","completion":"$cpuArch[undefined]"}
+{"prompt":"ForgeScript: $cpuCores undefined","completion":"$cpuCores[undefined]"}
+{"prompt":"ForgeScript: $cpuModel undefined","completion":"$cpuModel[undefined]"}
+{"prompt":"ForgeScript: $cpuSpeed undefined","completion":"$cpuSpeed[undefined]"}
+{"prompt":"ForgeScript: $networkCardIPs <separator>","completion":"$networkCardIPs[separator]"}
+{"prompt":"ForgeScript: $networkCardNames <separator>","completion":"$networkCardNames[separator]"}
+{"prompt":"ForgeScript: $nodeVersion undefined","completion":"$nodeVersion[undefined]"}
+{"prompt":"ForgeScript: $os undefined","completion":"$os[undefined]"}
+{"prompt":"ForgeScript: $osUptime undefined","completion":"$osUptime[undefined]"}
+{"prompt":"ForgeScript: $ram undefined","completion":"$ram[undefined]"}
+{"prompt":"ForgeScript: $ramTotal undefined","completion":"$ramTotal[undefined]"}
+{"prompt":"ForgeScript: $calendarDay undefined","completion":"$calendarDay[undefined]"}
+{"prompt":"ForgeScript: $calendarWeek undefined","completion":"$calendarWeek[undefined]"}
+{"prompt":"ForgeScript: $clearInterval <name>","completion":"$clearInterval[name]"}
+{"prompt":"ForgeScript: $clearTimeout <name>","completion":"$clearTimeout[name]"}
+{"prompt":"ForgeScript: $day <format>","completion":"$day[format]"}
+{"prompt":"ForgeScript: $discordTimestamp <time> <style>","completion":"$discordTimestamp[time;style]"}
+{"prompt":"ForgeScript: $executionTime undefined","completion":"$executionTime[undefined]"}
+{"prompt":"ForgeScript: $getTimestamp undefined","completion":"$getTimestamp[undefined]"}
+{"prompt":"ForgeScript: $hour <format>","completion":"$hour[format]"}
+{"prompt":"ForgeScript: $minute <format>","completion":"$minute[format]"}
+{"prompt":"ForgeScript: $month <format>","completion":"$month[format]"}
+{"prompt":"ForgeScript: $parseDate <ms> <type>","completion":"$parseDate[ms;type]"}
+{"prompt":"ForgeScript: $parseDigital <ms>","completion":"$parseDigital[ms]"}
+{"prompt":"ForgeScript: $parseMS <ms> <limit> <separator> <and>","completion":"$parseMS[ms;limit;separator;and]"}
+{"prompt":"ForgeScript: $parseString <duration>","completion":"$parseString[duration]"}
+{"prompt":"ForgeScript: $second <format>","completion":"$second[format]"}
+{"prompt":"ForgeScript: $setCalendar <type>","completion":"$setCalendar[type]"}
+{"prompt":"ForgeScript: $setInterval <code> <time> <name>","completion":"$setInterval[code;time;name]"}
+{"prompt":"ForgeScript: $setTimeout <code> <time> <name>","completion":"$setTimeout[code;time;name]"}
+{"prompt":"ForgeScript: $setTimezone <timezone>","completion":"$setTimezone[timezone]"}
+{"prompt":"ForgeScript: $unparseDate <date>","completion":"$unparseDate[date]"}
+{"prompt":"ForgeScript: $unparseDigital <digital>","completion":"$unparseDigital[digital]"}
+{"prompt":"ForgeScript: $wait <duration>","completion":"$wait[duration]"}
+{"prompt":"ForgeScript: $week undefined","completion":"$week[undefined]"}
+{"prompt":"ForgeScript: $weekday <format>","completion":"$weekday[format]"}
+{"prompt":"ForgeScript: $year <format>","completion":"$year[format]"}
+{"prompt":"ForgeScript: $api <route name> <route method> <route params;body>","completion":"$api[route name;route method;route params;body]"}
+{"prompt":"ForgeScript: $coroutine <code>","completion":"$coroutine[code]"}
+{"prompt":"ForgeScript: $djsEval <code>","completion":"$djsEval[code]"}
+{"prompt":"ForgeScript: $eval <code> <send>","completion":"$eval[code;send]"}
+{"prompt":"ForgeScript: $exec <command>","completion":"$exec[command]"}
+{"prompt":"ForgeScript: $function <code>","completion":"$function[code]"}
+{"prompt":"ForgeScript: $gc undefined","completion":"$gc[undefined]"}
+{"prompt":"ForgeScript: $instanceName undefined","completion":"$instanceName[undefined]"}
+{"prompt":"ForgeScript: $loadChannelContext <channel ID>","completion":"$loadChannelContext[channel ID]"}
+{"prompt":"ForgeScript: $loadGuildContext <guild ID>","completion":"$loadGuildContext[guild ID]"}
+{"prompt":"ForgeScript: $loadMemberContext <guild ID> <member ID>","completion":"$loadMemberContext[guild ID;member ID]"}
+{"prompt":"ForgeScript: $loadMessageContext <channel ID> <message ID>","completion":"$loadMessageContext[channel ID;message ID]"}
+{"prompt":"ForgeScript: $loadRoleContext <guild ID> <role ID>","completion":"$loadRoleContext[guild ID;role ID]"}
+{"prompt":"ForgeScript: $loadStickerContext <sticker ID>","completion":"$loadStickerContext[sticker ID]"}
+{"prompt":"ForgeScript: $loadUserContext <user ID>","completion":"$loadUserContext[user ID]"}
+{"prompt":"ForgeScript: $authorID undefined","completion":"$authorID[undefined]"}
+{"prompt":"ForgeScript: $discriminator <user ID>","completion":"$discriminator[user ID]"}
+{"prompt":"ForgeScript: $isBot <user ID>","completion":"$isBot[user ID]"}
+{"prompt":"ForgeScript: $isBotVerified <user ID>","completion":"$isBotVerified[user ID]"}
+{"prompt":"ForgeScript: $isUserDMEnabled <user>","completion":"$isUserDMEnabled[user]"}
+{"prompt":"ForgeScript: $randomUserID undefined","completion":"$randomUserID[undefined]"}
+{"prompt":"ForgeScript: $sendDM <user ID> <content> <return message ID>","completion":"$sendDM[user ID;content;return message ID]"}
+{"prompt":"ForgeScript: $userAccentColor <user ID>","completion":"$userAccentColor[user ID]"}
+{"prompt":"ForgeScript: $userAvatar <user ID> <size> <extension>","completion":"$userAvatar[user ID;size;extension]"}
+{"prompt":"ForgeScript: $userAvatarDecoration <user ID> <size> <extension>","completion":"$userAvatarDecoration[user ID;size;extension]"}
+{"prompt":"ForgeScript: $userBadges <user ID> <separator>","completion":"$userBadges[user ID;separator]"}
+{"prompt":"ForgeScript: $userBanner <user ID> <size> <extension>","completion":"$userBanner[user ID;size;extension]"}
+{"prompt":"ForgeScript: $userCount undefined","completion":"$userCount[undefined]"}
+{"prompt":"ForgeScript: $userCreatedAt <user ID>","completion":"$userCreatedAt[user ID]"}
+{"prompt":"ForgeScript: $userDefaultAvatar <user ID>","completion":"$userDefaultAvatar[user ID]"}
+{"prompt":"ForgeScript: $userDisplayName <user ID>","completion":"$userDisplayName[user ID]"}
+{"prompt":"ForgeScript: $userExists <user ID>","completion":"$userExists[user ID]"}
+{"prompt":"ForgeScript: $userGlobalName <user ID>","completion":"$userGlobalName[user ID]"}
+{"prompt":"ForgeScript: $userIDs <separator>","completion":"$userIDs[separator]"}
+{"prompt":"ForgeScript: $userRawData <user ID>","completion":"$userRawData[user ID]"}
+{"prompt":"ForgeScript: $userReferenceID <channel ID> <message ID>","completion":"$userReferenceID[channel ID;message ID]"}
+{"prompt":"ForgeScript: $userTag <user ID>","completion":"$userTag[user ID]"}
+{"prompt":"ForgeScript: $username <id>","completion":"$username[id]"}
+{"prompt":"ForgeScript: $delete <key>","completion":"$delete[key]"}
+{"prompt":"ForgeScript: $env <key>","completion":"$env[key]"}
+{"prompt":"ForgeScript: $get <key>","completion":"$get[key]"}
+{"prompt":"ForgeScript: $has <name>","completion":"$has[name]"}
+{"prompt":"ForgeScript: $let <key> <value>","completion":"$let[key;value]"}
+{"prompt":"ForgeScript: $letDivide <key> <value>","completion":"$letDivide[key;value]"}
+{"prompt":"ForgeScript: $letMulti <key> <value>","completion":"$letMulti[key;value]"}
+{"prompt":"ForgeScript: $letSub <key> <value>","completion":"$letSub[key;value]"}
+{"prompt":"ForgeScript: $letSum <key> <value>","completion":"$letSum[key;value]"}
+{"prompt":"ForgeScript: $webhookCreate <channel ID> <name> <url>","completion":"$webhookCreate[channel ID;name;url]"}
+{"prompt":"ForgeScript: $webhookDelete <id>","completion":"$webhookDelete[id]"}
+{"prompt":"ForgeScript: $webhookEdit <id> <name> <url>","completion":"$webhookEdit[id;name;url]"}
+{"prompt":"ForgeScript: $webhookEditMessage <url> <message ID> <content> <thread ID>","completion":"$webhookEditMessage[url;message ID;content;thread ID]"}
+{"prompt":"ForgeScript: $webhookExists <id>","completion":"$webhookExists[id]"}
+{"prompt":"ForgeScript: $webhookIsUserCreated <id>","completion":"$webhookIsUserCreated[id]"}
+{"prompt":"ForgeScript: $webhookSend <url> <content> <return message ID> <username> <avatar> <thread ID> <post name> <tags>","completion":"$webhookSend[url;content;return message ID;username;avatar;thread ID;post name;tags]"}
+{"prompt":"ForgeScript: $webhookToken <id>","completion":"$webhookToken[id]"}
+{"prompt":"ForgeScript: $webhookType <id>","completion":"$webhookType[id]"}
+{"prompt":"ForgeScript: $webhookURL <id>","completion":"$webhookURL[id]"}
+{"prompt":"ForgeScript: $ws <host>","completion":"$ws[host]"}
+{"prompt":"ForgeScript: $wsClose <websocket ID> <code>","completion":"$wsClose[websocket ID;code]"}
+{"prompt":"ForgeScript: $wsOn <websocket ID> <listener name> <callback> <params>","completion":"$wsOn[websocket ID;listener name;callback;params]"}
+{"prompt":"ForgeScript: $wsSend <websocket ID> <value> <callback> <variable name>","completion":"$wsSend[websocket ID;value;callback;variable name]"}
+{"prompt":"ForgeScript: $wsState <websocket ID>","completion":"$wsState[websocket ID]"}
