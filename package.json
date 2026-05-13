@@ -1,0 +1,27 @@
+{
+  "name": "@tryforge/forge.ai",
+  "version": "1.0.0",
+  "description": "Multi-provider AI extension for ForgeScript — OpenAI, Claude, Gemini, Ollama, DeepSeek, OpenLLM, Kiwi and more. Conversations, RAG, MCP, model routing and fallback.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/__tests__/index.ts"
+  },
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.0",
+    "@google/generative-ai": "^0.21.0",
+    "better-sqlite3": "^9.0.0",
+    "openai": "^4.0.0",
+    "tiny-typed-emitter": "^2.1.0"
+  }
+}
