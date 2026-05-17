@@ -13,15 +13,17 @@
   },
   "license": "GPL-3.0-or-later",
   "devDependencies": {
-    "@types/better-sqlite3": "^7.6.0",
+    "@tryforge/forge.db": "^2.1.1",
+    "@tryforge/forgescript": "github:tryforge/forgescript#dev",
     "@types/node": "^20.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.6.3"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.36.0",
     "@google/generative-ai": "^0.21.0",
-    "better-sqlite3": "^9.0.0",
     "openai": "^4.0.0",
-    "tiny-typed-emitter": "^2.1.0"
+    "reflect-metadata": "^0.2.2",
+    "tiny-typed-emitter": "^2.1.0",
+    "typeorm": "^0.3.27"
   }
 }
