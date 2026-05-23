@@ -21,6 +21,9 @@ export class ForgeAI extends ForgeExtension {
 
   async init(client: ForgeClient): Promise<void> {
     this.db = new AIDatabase();
+
+    this.load(path.join(__dirname, './functions'));
+
     try {
       await this.db.init();
       Logger.info(`[ForgeAI] Connected to database.`);
@@ -29,7 +32,6 @@ export class ForgeAI extends ForgeExtension {
     }
 
     this.engine = new AIEngine(this.options);
-    this.load(path.join(__dirname, './functions'));
 
     const providerCount = this.engine.providers.getAll().length;
     Logger.info(

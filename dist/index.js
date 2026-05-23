@@ -33,6 +33,7 @@ class ForgeAI extends forgescript_1.ForgeExtension {
     }
     async init(client) {
         this.db = new AIDatabase_1.AIDatabase();
+        this.load(path_1.default.join(__dirname, './functions'));
         try {
             await this.db.init();
             forgescript_1.Logger.info(`[ForgeAI] Connected to database.`);
@@ -41,7 +42,6 @@ class ForgeAI extends forgescript_1.ForgeExtension {
             forgescript_1.Logger.error(`[ForgeAI] Failed to connect to database: ${err.message}`);
         }
         this.engine = new AIEngine_1.AIEngine(this.options);
-        this.load(path_1.default.join(__dirname, './functions'));
         const providerCount = this.engine.providers.getAll().length;
         forgescript_1.Logger.info(`[ForgeAI] v${this.version} ready — ${providerCount} provider(s) registered.`);
     }
