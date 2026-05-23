@@ -1,5 +1,5 @@
 {
-  "name": "@tryforge/forge.ai",
+  "name": "forgeai",
   "version": "1.0.0",
   "description": "Multi-provider AI extension for ForgeScript — OpenAI, Claude, Gemini, Ollama, DeepSeek, OpenLLM, Kiwi and more. Conversations, RAG, MCP, model routing and fallback.",
   "main": "dist/index.js",
