@@ -1,6 +1,9 @@
 import { ForgeClient } from '@tryforge/forgescript';
 import { ForgeAI } from '..';
 import { ForgeDB } from '@tryforge/forge.db';
+import * as dotenv from "dotenv"
+
+dotenv.config()
 
 const db = new ForgeDB({
   type: "sqlite",
@@ -8,7 +11,7 @@ const db = new ForgeDB({
 
 const ai = new ForgeAI({
   providers: {
-    gemini: { apiKey: "AIzaSyDGHXhokLmaLPNmuJ1ZLW0237g5ux4joAQ" },
+    gemini: { apiKey: process.env.GEMINI_API_KEY as string },
   },
 
   // Default model — used when nothing more specific is set

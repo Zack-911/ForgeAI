@@ -16,6 +16,7 @@
     "@tryforge/forge.db": "^2.1.1",
     "@tryforge/forgescript": "github:tryforge/forgescript#dev",
     "@types/node": "^20.0.0",
+    "dotenv": "^17.4.2",
     "sqlite3": "^5.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
