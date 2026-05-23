@@ -42,7 +42,7 @@ const ai = new ForgeAI({
   maxTokens: 2048,
 
   // SQLite persistence for conversations and settings
-  persistence: { enabled: true, folder: './ai-data' },
+  persistence: { enabled: true },
 
   // Local RAG with OpenAI embeddings
   rag: {
