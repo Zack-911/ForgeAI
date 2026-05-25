@@ -27,16 +27,16 @@ export class AIDatabase extends AIDatabaseManager {
     mysql: MixedList<Function | string | EntitySchema>;
     postgres: MixedList<Function | string | EntitySchema>;
   } = {
-    sqlite: [AIUserSettings, AIGuildSettings, AIRAGDocument, AIConversation],
-    mongodb: [
-      MongoAIUserSettings,
-      MongoAIGuildSettings,
-      MongoAIRAGDocument,
-      MongoAIConversation,
-    ],
-    mysql: [AIUserSettings, AIGuildSettings, AIRAGDocument, AIConversation],
-    postgres: [AIUserSettings, AIGuildSettings, AIRAGDocument, AIConversation],
-  };
+      sqlite: [AIUserSettings, AIGuildSettings, AIRAGDocument, AIConversation],
+      mongodb: [
+        MongoAIUserSettings,
+        MongoAIGuildSettings,
+        MongoAIRAGDocument,
+        MongoAIConversation,
+      ],
+      mysql: [AIUserSettings, AIGuildSettings, AIRAGDocument, AIConversation],
+      postgres: [AIUserSettings, AIGuildSettings, AIRAGDocument, AIConversation],
+    };
 
   private static db: DataSource;
   private dbInit: Promise<DataSource>;
