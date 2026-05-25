@@ -1,7 +1,7 @@
 {
   "name": "forgeai",
   "version": "1.0.0",
-  "description": "Multi-provider AI extension for ForgeScript — OpenAI, Claude, Gemini, Ollama, DeepSeek, OpenLLM, Kiwi and more. Conversations, RAG, MCP, model routing and fallback.",
+  "description": "Multi-provider AI extension for ForgeScript. Conversations, RAG, MCP, model routing and fallback.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -11,7 +11,7 @@
     "build": "tsc -p tsconfig.json && node dist/docgen.js",
     "dev": "ts-node src/__tests__/index.ts"
   },
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "devDependencies": {
     "@tryforge/forge.db": "^2.1.1",
     "@tryforge/forgescript": "github:tryforge/forgescript#dev",
